@@ -4,14 +4,21 @@ from genetic_algo import ga
 for i in range(50): print('')
 
 def fit(x):
-    rs.DeleteObject(rs.ObjectsByLayer('Default'))
+    rs.DeleteObjects(rs.ObjectsByLayer('default'))
     pt1 = x[0], x[1]
     pt2 = x[2], x[3]
     pt3 = x[4], x[5]
     pt4 = x[6], x[7]
+    pts = [pt1, pt2, pt3, pt4]
+
     try:
-        polyline = rs.AddPolyline([pt1, pt2, pt3, pt4, pt1])
-        area = rs.CurveArea(polyline)[0]
+        polygon = rs.ObjectsByLayer('polygon')
+        for i in pts:
+            if rs.IsPointOnSurface(polygon, pts[i]):
+                j+=1
+        if j == 4:
+            polyline = rs.AddPolyline([pt1, pt2, pt3, pt4, pt1])
+            area = rs.CurveArea(polyline)[0]
     except:
         area = 0
     rs.Redraw()
@@ -20,7 +27,7 @@ def fit(x):
 fit_function = fit
 fit_type = 'max'
 num_var = 8 # num in x
-boundaries = [(0, 10) for _ in range(num_var)]
+boundaries = [(0, 25) for _ in range(num_var)]
 num_bin_dig = [8] * num_var # stops between 0 and 1, in binary digits
 output_path = os.path.join(os.path.dirname(__file__), 'output')
 
@@ -28,7 +35,7 @@ ga = ga(fit_function,
         fit_type,
         num_var,
         boundaries,
-        num_gen=100,
+        num_gen=10,
         num_pop=200,
         num_elite=10,
         mutation_probability=0.08,

@@ -16,11 +16,12 @@ def fit(x):
         for i in pts:
             if rs.IsPointOnSurface(polygon, pts[i]):
                 j+=1
-        if j == 4:
+        if j >= 3:
             polyline = rs.AddPolyline([pt1, pt2, pt3, pt4, pt1])
             area = rs.CurveArea(polyline)[0]
     except:
         area = 0
+        # print('oopsies')
     rs.Redraw()
     return area
 

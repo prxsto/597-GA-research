@@ -11,36 +11,40 @@ def fit(x):
     pt4 = x[6], x[7]
     pts = [pt1, pt2, pt3, pt4]
 
-    try:
-        polygon = rs.ObjectsByLayer('polygon')
-        for i in pts:
-            if rs.IsPointOnSurface(polygon, pts[i]):
-                j+=1
-        if j >= 3:
-            polyline = rs.AddPolyline([pt1, pt2, pt3, pt4, pt1])
-            area = rs.CurveArea(polyline)[0]
-    except:
-        area = 0
-        # print('oopsies')
+    # try:
+    polygon = rs.ObjectsByLayer('polygon')
+    j = 0
+    for i in range(len(pts)):
+        if rs.IsPointOnSurface(polygon, pts[i]):
+            j+=1
+            # print(j)
+    if j == 4:
+        polyline = rs.AddPolyline([pt1, pt2, pt3, pt4, pt1])
+        area = rs.CurveArea(polyline)[0]
+        rs.Redraw()
+        return area
+    # except:
+    #     area = 0
+    #     # print('oopsies')
     rs.Redraw()
-    return area
+    return 0
 
 fit_function = fit
 fit_type = 'max'
 num_var = 8 # num in x
-boundaries = [(0, 25) for _ in range(num_var)]
-num_bin_dig = [8] * num_var # stops between 0 and 1, in binary digits
+boundaries = [(0, 12.5), (0,12.5), (12.5, 25), (0, 12.5), (12.5, 25), (12.5, 25), (0, 12.5), (12.5, 25)]
+num_bin_dig = [6] * num_var # stops between 0 and 1, in binary digits
 output_path = os.path.join(os.path.dirname(__file__), 'output')
 
 ga = ga(fit_function,
         fit_type,
         num_var,
         boundaries,
-        num_gen=10,
-        num_pop=200,
+        num_gen=20,
+        num_pop=50,
         num_elite=10,
-        mutation_probability=0.08,
-        n_cross=3,
+        mutation_probability=0.01,
+        n_cross=1,
         num_bin_dig=num_bin_dig,
         min_fit=None,
         output_path=output_path,

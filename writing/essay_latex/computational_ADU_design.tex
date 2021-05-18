@@ -1,0 +1,84 @@
+% DOCUMENT CLASS---------------------------------------
+%\documentclass[10pt,twoside]{report}
+\documentclass[10t]{report}
+\usepackage{geometry}           % See geometry.pdf to learn the layout options. There are lots.
+
+\geometry{paperheight=24cm,paperwidth=16.5cm}
+%\geometry{left=1cm, right=1cm}
+%\geometry{a4paper}                         % ... or a4paper or a5paper or ..
+
+% OTHER ---------------------------------------
+
+
+% IMAGES --------------------------------------
+\usepackage{graphicx}
+\graphicspath{ {./images/}}
+
+
+% PseudoCode --------------------------------
+
+\usepackage{algpseudocode}
+
+% START DOCUMENT ---------------------------------------------------------------
+
+
+\begin{document}
+
+
+\title{Computational ADU Design: 
+An Evolutionary Approach}
+\author{Preston Pape}
+\date{17 May 2021}
+
+
+
+
+% empty page - - -- - 
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+% - - - - - - - -- - - -
+
+
+\maketitle
+
+
+\tableofcontents
+
+
+%- - - - - - - - - - - -
+%\input{./chapter_TNA/TNA.tex}
+\input{./chapters/introduction.tex}
+
+% empty page - - - - - - 
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+
+%- - - - - - - - - - - -
+\input{./chapters/literature_review.tex}
+\input{./chapters/methods.tex}
+\input{./chapters/results.tex}
+\input{./chapters/conclusion.tex}
+
+% -----------------------------------------
+%\printindex
+\nocite{*} 
+%\bibliographystyle{agsm}
+%\bibliographystyle{apsr}
+%\bibliographystyle{dcu}
+%\bibliographystyle{jmr}
+%\bibliographystyle{jphysicsB}
+%\bibliographystyle{kluwer}
+%\bibliographystyle{nederlands}
+%\bibliographystyle{aiaa}
+%\bibliographystyle{aalpha}
+\bibliographystyle{plain}
+%\bibliographystyle{abbrv}
+%\bibliographystyle{acm}
+\bibliography{597_bibliography.bib}
+
+
+
+
+\end{document}  

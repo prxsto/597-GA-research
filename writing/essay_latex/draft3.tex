@@ -1,6 +1,7 @@
 % sage_latex_guidelines.tex V1.20, 14 January 2017
 
-\documentclass[Afour,sageh,times]{sagej}
+\documentclass[sagev,times,Review]{sagej}
+% add 'doublespace'
 
 \usepackage{moreverb,url}
 
@@ -9,206 +10,64 @@
 \newcommand\BibTeX{{\rmfamily B\kern-.05em \textsc{i\kern-.025em b}\kern-.08em
 T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
-\def\volumeyear{2016}
+\def\volumeyear{2021}
 
 \begin{document}
 
-\runninghead{Smith and Wittkopf}
+\runninghead{Pape}
 
-\title{A demonstration of the \LaTeXe\ class file for
-\itshape{SAGE Publications}}
+\title{Energy simulation and analysis of accessory dwelling unit: 
+an evolutionary approach}
 
-\author{Alistair Smith\affilnum{1} and Hendrik Wittkopf\affilnum{2}}
+\author{Preston Pape\affilnum{1}}
 
-\affiliation{\affilnum{1}Sunrise Setting Ltd, UK\\
-\affilnum{2}SAGE Publications Ltd, UK}
+\affiliation{\affilnum{1}University of Washington}
 
-\corrauth{Alistair Smith, Sunrise Setting Ltd
-Brixham Laboratory,
-Freshwater Quarry,
-Brixham, Devon,
-TQ5~8BA, UK.}
+%\corrauth{}
 
-\email{alistair.smith@sunrise-setting.co.uk}
+\email{ppape@uw.edu}
 
 \begin{abstract}
-This paper describes the use of the \LaTeXe\
-\textsf{\journalclass} class file for setting papers to be
-submitted to a \textit{SAGE Publications} journal.
-The template can be downloaded \href{http://www.uk.sagepub.com/repository/binaries/SAGE LaTeX template.zip}{here}.
-\end{abstract}
+The United States is experiencing an unprecedented housing crisis, resulting in a rising population of unhoused peoples and the inability to become a homeowner or to even afford monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Ten detached ADU (or DADU) designs are pre-approved by the City of Seattle and are freely available online to entice homeowners. However, a 2019 city survey shows that there are calls for an increased focus on sustainability and cost. This research intends to explore whether the use of genetic algorithms via shape grammar methodology to optimize DADU plans to site context, increases building performance or further encourages construction. The proposed methodology begins by reading example site data from the city of Seattle including building and vegetation context and rental/land prices from Seattle GIS and Zillow, respectively. Next, a genetic algorithm explores the design space for a viable floor plan solution based on a fitness function. This fitness function evaluates individual designs according to predefined traits. Traits to evaluate include window to wall ratio, insulation depth/type, ventilation strategy, and shading technique. Locating the correct combination of traits to minimize (or maximize) which results in a higher performance DADU is the desired outcome. Resulting designs will be analyzed and compared via energy performance simulation. The end-goal is to develop a computational tool using the aforementioned system to conduct automated site analysis, as well as parametric generation of DADUs.\end{abstract}
 
-\keywords{Class file, \LaTeXe, \textit{SAGE Publications}}
+\keywords{Genetic Algorithm, ADU, Optimization, Simulation, EUI, Grasshopper, Galapagos}
 
 \maketitle
 
 \section{Introduction}
-Many authors submitting to research journals use \LaTeXe\ to
-prepare their papers. This paper describes the
-\textsf{\journalclass} class file which can be used to convert
-articles produced with other \LaTeXe\ class files into the correct
-form for submission to \textit{SAGE Publications}.
+The United States is amid an unprecedented housing crisis, stemming from issues outside of housing, such as neoliberal cuts to social benefits spending and the increasing privatization of essentially every aspect of American life. The result is a rising population of unhoused peoples and the inability for many to become a homeowner or to even afford minimum monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. However, as designers and architects, this problem can only be addressed at the symptom-level, while advocating at the root cause. 
 
-The \textsf{\journalclass} class file preserves much of the
-standard \LaTeXe\ interface so that any document which was
-produced using the standard \LaTeXe\ \textsf{article} style can
-easily be converted to work with the \textsf{\journalclassshort}
-style. However, the width of text and typesize will vary from that
-of \textsf{article.cls}; therefore, \textit{line breaks will change}
-and it is likely that displayed mathematics and tabular material
-will need re-setting.
+%TODO Expand background portion of intro
 
-In the following sections we describe how to lay out your code to
-use \textsf{\journalclass} to reproduce much of the typographical look of
-the \textit{SAGE} journal that you wish to submit to. However, this paper is not a guide to
-using \LaTeXe\ and we would refer you to any of the many books
-available (see, for example, \cite{R1}, \cite{R2} and \cite{R3}).
+Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Ten detached ADU (or DADU) designs are pre-approved by the City of Seattle and are available online to entice homeowners. However, a 2019 city survey shows that there are calls for an increased focus on sustainability and cost in the construction of ADUs\cite{seattlePreapprovedPlansAccessory2019}. These out of the box designs do not offer the scalability or energy efficiency that an ADU designed specifically per site offers.
 
-\section{The three golden rules}
-Before we proceed, we would like to stress \textit{three golden
-rules} that need to be followed to enable the most efficient use
-of your code at the typesetting stage:
-\begin{enumerate}
-\item[(i)] keep your own macros to an absolute minimum;
+%TODO Expand reason for why this tool is necessary to drive ADU demand
 
-\item[(ii)] as \TeX\ is designed to make sensible spacing
-decisions by itself, do \textit{not} use explicit horizontal or
-vertical spacing commands, except in a few accepted (mostly
-mathematical) situations, such as \verb"\," before a
-differential~d, or \verb"\quad" to separate an equation from its
-qualifier;
+Homeowner’s associations and other local organizations have historically fought back against any proposed density increases through zoning or other method. However, Seattle and the other aforementioned cities in the Pacific Northwest have succeeded in allowing for the construction of ADUs in recent decades. The pre-approved designs are free, but require payment of around one thousand dollars [check this] for approval and come with one significant downside of many other pre-designed structures- a lack of contextual design and individualization.
 
-\item[(iii)] follow the journal reference style.
-\end{enumerate}
+This research explores whether the use of genetic algorithms via shape grammar methodology can effectively optimize DADU plans to site context, increases building performance or further encourages construction. The proposed methodology begins by reading example site data from the city of Seattle including building and vegetation context from the Seattle GIS. Next, a genetic algorithm explores the design space for a viable floor plan solution based on a fitness function. This fitness function evaluates individual designs according to predefined traits. Traits to evaluate include window to wall ratio, insulation depth/type, ventilation strategy, and shading technique. Locating the correct combination of traits to minimize (or maximize) which results in a higher performance DADU is the desired outcome. Resulting designs will be analyzed and compared via energy performance simulation. The end-goal is to develop a computational tool using the aforementioned system to conduct automated site analysis, as well as parametric generation of DADUs.
 
-\section{Getting started} The \textsf{\journalclassshort} class file should run
-on any standard \LaTeXe\ installation. If any of the fonts, style
-files or packages it requires are missing from your installation,
-they can be found on the \textit{\TeX\ Collection} DVDs or downloaded from
-CTAN.
+\section{Literature Review}
+%TODO include feedback info on information from seattle city ADU survey- see obsidian notes: city survey respondents said “»  **Successful designs respond to site and context.** Some respondents lauded design choices that reflect a site’s opportunities and constraints or the architecture and climate of the Pacific Northwest. “also: “**Various types of spaces are valuable.** Respondents expressed interest in designs that include patios, rooftop decks, storage, and garages. “ - **SPACES TO CONSIDER FOR ALGORITHM** also: **DIY opportunities.** Respondents encouraged designs that allow homeowners to do a substantial amount of the construction themselves. “ - **SELF BUILD//NO ARCHITECT/BUILDER INVOLVEMENT don’t say no to this yet!!! (family/friend labor?)**also: **Flexibility.** Respondents emphasized the desirability of allowing mix-and-match options, such as multiple roof options, that make the design somewhat customizable. “ - **SHAPE GRAMMAR?**
 
-\begin{figure*}
-\setlength{\fboxsep}{0pt}%
-\setlength{\fboxrule}{0pt}%
-\begin{center}
-\begin{boxedverbatim}
-\documentclass[<options>]{sagej}
+\section{Methods} 
+\subsection{Design constraints and decisions}
+%TODO code restrictions: height limitations, lot size, etc via aduniverse-seattlecitygis.hub.arcgis.com/pages/code
+%TODO touch on how 3 varying sites were chosen in 3 neighborhoods: central district, first hill and madrona
+%TODO include table of R values for each layer, as well as U value of wall assembly, description of wood frame construction chosen, and why chosen.
+\subsection{Energy simulation and analysis}
+\subsection{Genetic algorithm}
 
-\begin{document}
+\section{Results}
 
-\runninghead{<Author surnames>}
+\section{Conclusion}
 
-\title{<Initial capital only>}
+\subsection{Future work}
+Benefit of a pure python tool 
+Looking forward, moving on from the Grasshopper platform gives the benefit of non-reliance on developers to maintain the software in which the tool depends. Creation of such a tool in a singular programming language (in this case Python) further offers the ability to quickly and easily run the tool on a high variance of devices. In turn, this theoretically increases the rate of adoption by lowering the requirement to use the design tool. Additionally, Python is used within Rhino/Grasshopper (or a flavor thereof), provides many useful math and geometry libraries, and has options for injection into a web app (Flask and Django).
+Limitations of Galapagos/Grasshopper workflow
+Utilizing Galapagos and Grasshopper offers a ‘sandbox’ environment to begin to understand genetic algorithms and to arrive at tangible design solutions faster than using a home-brewed algorithm. Galapagos offers many fewer input parameters and a much narrower scope in which to define the fitness function. In its out-of-the-box form, Galapagos only accepts number sliders as input and can only optimize integers and floats- in reality, there is not means in which to define a true fitness function, only numerical values to target. 
 
-\author{<An Author\affilnum{1},
-Someone Else\affilnum{2} and
-Perhaps Another\affilnum{1}>}
-
-\affiliation{<\affilnum{1}First and third authors' affiliation\\
-\affilnum{2}Second author affiliation>}
-
-\corrauth{<Corresponding author's name and full postal address>}
-
-\email{<Corresponding author's email address>}
-
-\begin{abstract}
-<Text>
-\end{abstract}
-
-\keywords{<List keywords>}
-
-\maketitle
-
-\section{Introduction}
-.
-.
-.
-\end{boxedverbatim}
-\end{center}
-\caption{Example header text.\label{F1}}
-\end{figure*}
-
-\section{The article header information}
-The heading for any file using \textsf{\journalclass} is shown in
-Figure~\ref{F1}. You must select options for the trim/text area and
-the reference style of the journal you are submitting to.
-The choice of \verb+options+ are listed in Table~\ref{T1}.
-
-\begin{table}[h]
-\small\sf\centering
-\caption{The choice of options.\label{T1}}
-\begin{tabular}{lll}
-\toprule
-Option&Trim and font size&Columns\\
-\midrule
-\texttt{shortAfour}& 210 $\times$ 280 mm, 10pt& Double column\\
-\texttt{Afour} &210 $\times$ 297 mm, 10pt& Double column\\
-\texttt{MCfour} &189 $\times$ 246 mm, 10pt& Double column\\
-\texttt{PCfour} &170 $\times$ 242 mm, 10pt& Double column\\
-\texttt{Royal} &156 $\times$ 234 mm, 10pt& Single column\\
-\texttt{Crown} &7.25 $\times$ 9.5 in, 10pt&Single column\\
-\texttt{Review} & 156 $\times$ 234 mm, 12pt & Single column\\
-\bottomrule
-\end{tabular}\\[10pt]
-\begin{tabular}{ll}
-\toprule
-Option&Reference style\\
-\midrule
-\texttt{sageh}&SAGE Harvard style (author-year)\\
-\texttt{sagev}&SAGE Vancouver style (superscript numbers)\\
-\texttt{sageapa}&APA style (author-year)\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-For example, if your journal is short A4 sized, uses Times fonts and has Harvard style references then you would need\\
-{\small\verb+\documentclass[ShortAfour,times,sageh]{sagej}+}
-
-Most \textit{SAGE} journals are published using Times fonts but if for any reason you have a problem using Times you can
-easily resort to Computer Modern fonts by removing the
-\verb"times" option.
-
-\subsection{`Review' option}
-Some journals (for example, \emph{Journal of the Society for Clinical Trials}) require that
-papers are set single column and with a larger font size to help with the review process.
-If this is a requirement for the journal that you are submitting to, just add the \verb+Review+ option to the \verb+\documenclass[]{sagej}+ line.
-
-\subsection{Remarks}
-\begin{enumerate}
-\item[(i)] In \verb"\runninghead" use `\textit{et~al.}' if there
-are three or more authors.
-
-\item[(ii)] For multiple author papers please note the use of \verb"\affilnum" to
-link names and affiliations. The corresponding author details need to be included using the
-\verb+\corrauth+ and \verb+\email+ commands.
-
-\item[(iii)] For submitting a double-spaced manuscript, add
-\verb"doublespace" as an option to the documentclass line.
-
-\item[(iv)] The abstract should be capable of standing by itself,
-in the absence of the body of the article and of the bibliography.
-Therefore, it must not contain any reference citations.
-
-\item[(v)] Keywords are separated by commas.
-
-\item[(vi)] If you are submitting to a \textit{SAGE} journal that requires numbered sections (for example, IJRR), please add the command
-  \verb+\setcounter{secnumdepth}{3}+ just above the \verb+\begin{document}+ line.
-
-\end{enumerate}
-
-
-\section{The body of the article}
-
-\subsection{Mathematics} \textsf{\journalclass} makes the full
-functionality of \AmS\/\TeX\ available. We encourage the use of
-the \verb"align", \verb"gather" and \verb"multline" environments
-for displayed mathematics. \textsf{amsthm} is used for setting
-theorem-like and proof environments. The usual \verb"\newtheorem"
-command needs to be used to set up the environments for your
-particular document.
-
-\subsection{Figures and tables} \textsf{\journalclass} includes the
-\textsf{graphicx} package for handling figures.
 
 Figures are called in as follows:
 \begin{verbatim}
@@ -219,116 +78,42 @@ Figures are called in as follows:
 \end{figure}
 \end{verbatim}
 
-For further details on how to size figures, etc., with the
-\textsf{graphicx} package see, for example, \cite{R1}
-or \cite{R3}.
+%\begin{figure}
+%\setlength{\fboxsep}{0pt}%
+%\setlength{\fboxrule}{0pt}%
+%\begin{center}
+%\begin{boxedverbatim}
+%\begin{table}
+%\small\sf\centering
+%\caption{<Table caption.>}
+%\begin{tabular}{<table alignment>}
+%\toprule
+%<column headings>\\
+%\midrule
+%<table entries
+%(separated by & as usual)>\\
+%<table entries>\\
+%.
+%.
+%.\\
+%\bottomrule
+%\end{tabular}
+%\end{table}
+%\end{boxedverbatim}
+%\end{center}
+%\caption{Example table layout.\label{F2}}
+%\end{figure}
 
-The standard coding for a table is shown in Figure~\ref{F2}.
-
-\begin{figure}
-\setlength{\fboxsep}{0pt}%
-\setlength{\fboxrule}{0pt}%
-\begin{center}
-\begin{boxedverbatim}
-\begin{table}
-\small\sf\centering
-\caption{<Table caption.>}
-\begin{tabular}{<table alignment>}
-\toprule
-<column headings>\\
-\midrule
-<table entries
-(separated by & as usual)>\\
-<table entries>\\
-.
-.
-.\\
-\bottomrule
-\end{tabular}
-\end{table}
-\end{boxedverbatim}
-\end{center}
-\caption{Example table layout.\label{F2}}
-\end{figure}
-
-\subsection{Cross-referencing}
-The use of the \LaTeX\ cross-reference system
-for figures, tables, equations, etc., is encouraged
-(using \verb"\ref{<name>}" and \verb"\label{<name>}").
-
-\subsection{End of paper special sections}
-Depending on the requirements of the journal that you are submitting to,
-there are macros defined to typeset various special sections.
-
-The commands available are:
-\begin{verbatim}
-\begin{acks}
-To typeset an
-  "Acknowledgements" section.
-\end{acks}
-\end{verbatim}
-
-\begin{verbatim}
-\begin{biog}
-To typeset an
-  "Author biography" section.
-\end{biog}
-\end{verbatim}
-
-\begin{verbatim}
-\begin{biogs}
-To typeset an
-  "Author Biographies" section.
-\end{biogs}
-\end{verbatim}
-
-%\newpage
-
-\begin{verbatim}
-\begin{dci}
-To typeset a "Declaration of
-  conflicting interests" section.
-\end{dci}
-\end{verbatim}
-
-\begin{verbatim}
-\begin{funding}
-To typeset a "Funding" section.
-\end{funding}
-\end{verbatim}
-
-\begin{verbatim}
-\begin{sm}
-To typeset a
-  "Supplemental material" section.
-\end{sm}
-\end{verbatim}
-
-\subsection{Endnotes}
-Most \textit{SAGE} journals use endnotes rather than footnotes, so any notes should be coded as \verb+\endnote{<Text>}+.
-Place the command \verb+\theendnotes+ just above the Reference section to typeset the endnotes.
-
-To avoid any confusion for papers that use Vancouver style references,  footnotes/endnotes should be edited into the text.
-
-\subsection{References}
-Please note that the files \textsf{SageH.bst} and \textsf{SageV.bst} are included with the class file
-for those authors using \BibTeX.
-The files work in a completely standard way, and you just need to uncomment one of the lines in the below example depending on what style you require:
-\begin{verbatim}
-%%Harvard (name/date)
-%\bibliographystyle{SageH}
-%%Vancouver (numbered)
-%\bibliographystyle{SageV}
-\bibliography{<YourBibfile.bib>}
-\end{verbatim}
-and remember to add the relevant option to the \verb+\documentclass[]{sagej}+ line as listed in Table~\ref{T1}. 
-
-%\section{Support for \textsf{\journalclass}}
-%We offer on-line support to participating authors. Please contact
-%us via e-mail at \dots
+%\subsection{Cross-referencing}
+%The use of the \LaTeX\ cross-reference system
+%for figures, tables, equations, etc., is encouraged
+%(using \verb"\ref{<name>}" and \verb"\label{<name>}").
 %
-%We would welcome any feedback, positive or otherwise, on your
-%experiences of using \textsf{\journalclass}.
+%\subsection{Endnotes}
+%Most \textit{SAGE} journals use endnotes rather than footnotes, so any notes should be coded as \verb+\endnote{<Text>}+.
+%Place the command \verb+\theendnotes+ just above the Reference section to typeset the endnotes.
+%
+%To avoid any confusion for papers that use Vancouver style references,  footnotes/endnotes should be edited into the text.
 
 \section{Copyright statement}
 Please  be  aware that the use of  this \LaTeXe\ class file is
@@ -348,7 +133,7 @@ part of the class file commercially.
 This class file is provided on an \textit{as is}  basis, without
 warranties of any kind, either express or implied, including but
 not limited to warranties of title, or implied  warranties of
-merchantablility or fitness for a particular purpose. There will
+merchantability or fitness for a particular purpose. There will
 be no duty on the author[s] of the software or SAGE Publications Ltd
 to correct any errors or defects in the software. Any
 statutory  rights you may have remain unaffected by your
@@ -360,19 +145,30 @@ Brixham, Devon, UK.\\
 Website: \url{http://www.sunrise-setting.co.uk}
 \end{acks}
 
-\begin{thebibliography}{99}
-\bibitem[Kopka and Daly(2003)]{R1}
-Kopka~H and Daly~PW (2003) \textit{A Guide to \LaTeX}, 4th~edn.
-Addison-Wesley.
+\begin{funding}
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+\end{funding}
 
-\bibitem[Lamport(1994)]{R2}
-Lamport~L (1994) \textit{\LaTeX: a Document Preparation System},
-2nd~edn. Addison-Wesley.
+\begin{dci}
+	The author declares that there is no conflict of interest.
+\end{dci}
 
-\bibitem[Mittelbach and Goossens(2004)]{R3}
-Mittelbach~F and Goossens~M (2004) \textit{The \LaTeX\ Companion},
-2nd~edn. Addison-Wesley.
+\bibliographystyle{SageV}
+\bibliography{597_bibliography}
 
-\end{thebibliography}
+%\begin{thebibliography}{99}
+%\bibitem[Kopka and Daly(2003)]{R1}
+%Kopka~H and Daly~PW (2003) \textit{A Guide to \LaTeX}, 4th~edn.
+%Addison-Wesley.
+%
+%\bibitem[Lamport(1994)]{R2}
+%Lamport~L (1994) \textit{\LaTeX: a Document Preparation System},
+%2nd~edn. Addison-Wesley.
+%
+%\bibitem[Mittelbach and Goossens(2004)]{R3}
+%Mittelbach~F and Goossens~M (2004) \textit{The \LaTeX\ Companion},
+%2nd~edn. Addison-Wesley.
+%
+%\end{thebibliography}
 
 \end{document}

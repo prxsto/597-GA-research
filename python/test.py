@@ -23,6 +23,8 @@ def fit(x):
         area = rs.CurveArea(polyline)[0]
         rs.Redraw()
         return area
+    else:
+        return 0
     # except:
     #     area = 0
     #     # print('oopsies')

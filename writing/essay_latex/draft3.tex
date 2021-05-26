@@ -1,9 +1,11 @@
 % sage_latex_guidelines.tex V1.20, 14 January 2017
 
-\documentclass[sagev,times,Review]{sagej}
+\documentclass[sagev,doublespace,times,Review]{sagej}
 % add 'doublespace'
 
 \usepackage{moreverb,url}
+
+\usepackage{graphicx}
 
 \usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
 
@@ -28,81 +30,176 @@ an evolutionary approach}
 \email{ppape@uw.edu}
 
 \begin{abstract}
-The United States is experiencing an unprecedented housing crisis, resulting in a rising population of unhoused peoples and the inability to become a homeowner or to even afford monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Ten detached ADU (or DADU) designs are pre-approved by the City of Seattle and are freely available online to entice homeowners. However, a 2019 city survey shows that there are calls for an increased focus on sustainability and cost. This research intends to explore whether the use of genetic algorithms via shape grammar methodology to optimize DADU plans to site context, increases building performance or further encourages construction. The proposed methodology begins by reading example site data from the city of Seattle including building and vegetation context and rental/land prices from Seattle GIS and Zillow, respectively. Next, a genetic algorithm explores the design space for a viable floor plan solution based on a fitness function. This fitness function evaluates individual designs according to predefined traits. Traits to evaluate include window to wall ratio, insulation depth/type, ventilation strategy, and shading technique. Locating the correct combination of traits to minimize (or maximize) which results in a higher performance DADU is the desired outcome. Resulting designs will be analyzed and compared via energy performance simulation. The end-goal is to develop a computational tool using the aforementioned system to conduct automated site analysis, as well as parametric generation of DADUs.\end{abstract}
+\textit{***Needs refining and reducing, IJAC word count limit for abstract is 150, and much of my abstract was adapted into my intro- will update with final draft at end of quarter, working findings in***}
 
-\keywords{Genetic Algorithm, ADU, Optimization, Simulation, EUI, Grasshopper, Galapagos}
+The United States is experiencing an unprecedented housing crisis, resulting in a rising population of unhoused peoples and the inability to become a homeowner or to even afford monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Ten detached ADU (or DADU) designs are pre-approved by the City of Seattle and are freely available online to entice homeowners. However, a 2019 city survey shows that there are calls for an increased focus on sustainability and cost. This research intends to explore whether the use of genetic algorithms to optimize DADU windows increases building performance and further encourages construction. The proposed methodology begins by reading example site data from the city of Seattle including building and vegetation context and rental/land prices from Seattle GIS and Zillow, respectively. Next, a genetic algorithm explores the design space for a viable floor plan solution based on a fitness function. This fitness function evaluates individual designs according to predefined traits. Traits to evaluate include window to wall ratio, insulation depth/type, ventilation strategy, and shading technique. Locating the correct combination of traits to minimize (or maximize) which results in a higher performance DADU is the desired outcome. Resulting designs will be analyzed and compared via energy performance simulation. 
+\end{abstract}
+
+\keywords{Genetic algorithm, ADU, optimization, simulation, EUI, grasshopper, galapagos}
 
 \maketitle
 
+\section{\textit{TODO:}}
+\begin{itemize}
+	\item Revise and essentially rewrite abstract to fit within journal constraints
+	\item Following points are due to learning LaTeX formatting and how to export Zotero bibliography as a BibLaTeX file to be read and able to cite within the text editor I am using (currently using a work-around): \begin{itemize} 
+	\item Add supporting claims into introduction from sources read and researched
+	\item Add supporting claims into methods from sources read and researched \end{itemize}
+	\item Complete explanation of Honeybee energy model and Galapagos genetic solver subsections within methods.
+	\item Add results section (still running the tool on two remaining sites [Madrona and Minor locations])
+	\item Add data visualizations of results, additional simplified plans of DADUs and sites
+	\item Flesh out conclusion, refine portion on future work since pivoting scope and direction of research in week 5
+\end{itemize}
+
 \section{Introduction}
-The United States is amid an unprecedented housing crisis, stemming from issues outside of housing, such as neoliberal cuts to social benefits spending and the increasing privatization of essentially every aspect of American life. The result is a rising population of unhoused peoples and the inability for many to become a homeowner or to even afford minimum monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. However, as designers and architects, this problem can only be addressed at the symptom-level, while advocating at the root cause. 
+The United States is amidst an unprecedented housing crisis, stemming from parallel crises and outside issues, such as the neoliberal cuts to social benefits spending and increasing privatization of essentially every aspect of American life. The result is a rising population of unhoused peoples and the inability for many to become a homeowner or to even afford minimum monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. However, as designers and architects, this problem can only be addressed at the symptom-level, while advocating at the root cause. 
 
-%TODO Expand background portion of intro
+Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Historically, homeowner’s associations and other local organizations have  been resistant to any proposed density increases through zoning or other means. However, Seattle and the other previously mentioned cities in the Pacific Northwest have succeeded in allowing for the construction of ADUs in recent decades, with these groups beginning to see ADUs as a positive. ADUs offer many positives beyond an increased housing supply such as a path for homeowners to generate income and accommodating households with multigenerational or caretaking needs.
 
-Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Ten detached ADU (or DADU) designs are pre-approved by the City of Seattle and are available online to entice homeowners. However, a 2019 city survey shows that there are calls for an increased focus on sustainability and cost in the construction of ADUs\cite{seattlePreapprovedPlansAccessory2019}. These out of the box designs do not offer the scalability or energy efficiency that an ADU designed specifically per site offers.
+Beginning in 2014, the City of Seattle has moved to increase production of ADUs through various resolutions and legislation, removing barriers to entry and highlighting strategies for encouragement. In late 2019, a call for detached ADU (or DADU) designs was issued to designers. As a result, ten DADU designs were pre-approved by the City of Seattle and are available online to entice homeowners.The pre-approved designs are free, but still require standard permitting fees to be paid for approval and come with one significant downside of many other pre-designed structures- a lack of contextual design and individualization. This one-size-fits-all approach can have drastic effects upon energy consumption, reducing the appeal of such an investment. Further, these designs do not offer the scalability or energy efficiency that an ADU designed specifically per site offers.
 
-%TODO Expand reason for why this tool is necessary to drive ADU demand
-
-Homeowner’s associations and other local organizations have historically fought back against any proposed density increases through zoning or other method. However, Seattle and the other aforementioned cities in the Pacific Northwest have succeeded in allowing for the construction of ADUs in recent decades. The pre-approved designs are free, but require payment of around one thousand dollars [check this] for approval and come with one significant downside of many other pre-designed structures- a lack of contextual design and individualization.
-
-This research explores whether the use of genetic algorithms via shape grammar methodology can effectively optimize DADU plans to site context, increases building performance or further encourages construction. The proposed methodology begins by reading example site data from the city of Seattle including building and vegetation context from the Seattle GIS. Next, a genetic algorithm explores the design space for a viable floor plan solution based on a fitness function. This fitness function evaluates individual designs according to predefined traits. Traits to evaluate include window to wall ratio, insulation depth/type, ventilation strategy, and shading technique. Locating the correct combination of traits to minimize (or maximize) which results in a higher performance DADU is the desired outcome. Resulting designs will be analyzed and compared via energy performance simulation. The end-goal is to develop a computational tool using the aforementioned system to conduct automated site analysis, as well as parametric generation of DADUs.
-
-\section{Literature Review}
-%TODO include feedback info on information from seattle city ADU survey- see obsidian notes: city survey respondents said “»  **Successful designs respond to site and context.** Some respondents lauded design choices that reflect a site’s opportunities and constraints or the architecture and climate of the Pacific Northwest. “also: “**Various types of spaces are valuable.** Respondents expressed interest in designs that include patios, rooftop decks, storage, and garages. “ - **SPACES TO CONSIDER FOR ALGORITHM** also: **DIY opportunities.** Respondents encouraged designs that allow homeowners to do a substantial amount of the construction themselves. “ - **SELF BUILD//NO ARCHITECT/BUILDER INVOLVEMENT don’t say no to this yet!!! (family/friend labor?)**also: **Flexibility.** Respondents emphasized the desirability of allowing mix-and-match options, such as multiple roof options, that make the design somewhat customizable. “ - **SHAPE GRAMMAR?**
-
+ Coincidentally, a November 2019 city survey shows that there are calls for an increased focus on sustainability and cost in the construction of ADUs\cite{seattlePreapprovedPlansAccessory2019}. This survey was positioned before the official call for submissions was broadcast. 'Low cost' was the top ranked criteria with 48\% of responses listing 'very important', followed by 'green building' being ranked similarly at 46\%. Other suggestions sourced from surveyed respondents included low environmental costs, site specific considerations, and predictability. 
+ 
+%TODO expand here, but keep flow into methods section
 \section{Methods} 
 \subsection{Design constraints and decisions}
-%TODO code restrictions: height limitations, lot size, etc via aduniverse-seattlecitygis.hub.arcgis.com/pages/code
-%TODO touch on how 3 varying sites were chosen in 3 neighborhoods: central district, first hill and madrona
-%TODO include table of R values for each layer, as well as U value of wall assembly, description of wood frame construction chosen, and why chosen.
-\subsection{Energy simulation and analysis}
-\subsection{Genetic algorithm}
+The ability to show users the estimated annual energy consumption of a new construction DADU would have a major impact on driving ADU construction demand based on survey responses noted. Using an optimization method such as a genetic algorithm can allow architects to arrive at the most effective design solution on a site specific basis while \textit{predictably} minimizing both environmental and financial costs. This research explores the use of a genetic solver to find the optimal design solution of window-to-wall ratios (WWR) for a simple DADU form resulting in the lowest EUI value. Three sites in similar neighborhoods in the city of Seattle were selected based on a combination of proximity and slight density variance. The tool adheres to land use code to find estimated buildable area for a DADU on each site, creates a simple box-like form representing the DADU and then varies the WWR value for each of the four walls. A genetic solver plugin is then allowed to vary these ratios to find an optimal solution using a process largely mimicking natural genetic processes. Finally, an energy model is created from each individual iteration to find an estimate for overall EUI. From here, the process loops until an optimal solution (in this case, via minimizing EUI) is found.
 
+%TODO merge these two (upper and lower) sections together
+Site locations were chosen through the use of the \textit{ADUniverse} tool, developed by the University of Washington researchers at the eScience Institute\cite{ADUniverseToolEScience}. ADUniverse allows for users to investigate the possibility of constructing an ADU through a map-based user interface. Chosen sites are located within the Madrona, Minor, and Central District neighborhoods of Seattle, WA. All three sites are zoned under SF5000, a single family residential zoning. Site data was extracted from the city of Seattle's GIS website, converted into an AutoCAD .DWG file, and then imported into and extruded within Rhinoceros 6 (Rhino), a 3D modeling software. Lot lines surrounding each house are fed into the Grasshopper definition, coupled with constraints in line with the current Seattle Land Use Code. Such universal constraints for ADUs on lots located within SF5000 zoning are as is shown below \cite{ADURules}: 
+
+% itemized list of zoning restrictions for each site
+\begin{itemize}
+	\item Lot size must be at least 3200 square feet
+	\item Minimum lot width of 25 feet
+	\item Minimum lot length of 70 feet
+	\item DADU can occupy \textit{at most} 60\% of rear yard	
+	\item Front yard of 20 feet, side yards of 5 feet, rear yard of 25  feet
+	\item DADU height limit varies based on lot width: \begin{itemize}
+	\item 14 feet for lot widths less than 30 feet
+	\item 16 feet for lot widths between 40 and 50 feet
+	\item 18 feet for lot widths exceeding 50 feet \end{itemize}
+\end{itemize}
+
+These constraints are built into the Grasshopper definition in such a way that the tool only requires lot extends and the outline of the existing residential structure to develop the buildable area for any DADU construction. The DADU is represented as a simple box with dimensions of (fill this in once all 3 sites have been finalized). This minimal geometry is located congruent to lot lines and the existing structure. Under current Seattle Residential Building Code (2018), minimum R-values for wall and ceiling assemblies are R-21 and R-49, respectively. Light wood frame construction was chosen for all three sites, as the majority of residential construction in the United States and in Seattle specifically falls under this category due to price and ubiquity. For this project, wall assembly was specified to a total R-value of 29.232 (see Table \ref{table:wall-assembly}.). 
+\textit{\textbf{***Insert second table or append data to existing table of slab and ceiling R-values***}}
+
+Next, the variable aspect of the DADU lies in the window-to-wall ratios of each of the four facades, which line up with the cardinal directions. The ratio between solid and glazed facade areas is allowed to shift between 
+
+
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccc}
+\hline
+\multicolumn{1}{|l|}{\textbf{Assembly}} &
+  \multicolumn{1}{l|}{\textbf{Notes}} &
+  \multicolumn{1}{c|}{\textbf{R-Value}} &
+  \multicolumn{1}{l|}{\textbf{Path 1 (Insulation)}} &
+  \multicolumn{1}{l|}{\textbf{Path 2 (Framing)}} \\ \hline
+\multicolumn{1}{|l|}{Air Film} &
+  \multicolumn{1}{c|}{Interior} &
+  \multicolumn{1}{c|}{0.68} &
+  \multicolumn{1}{c|}{0.68} &
+  \multicolumn{1}{c|}{0.68} \\ \hline
+\multicolumn{1}{|l|}{Gypsum Board} &
+  \multicolumn{1}{c|}{1/2"} &
+  \multicolumn{1}{c|}{0.45} &
+  \multicolumn{1}{c|}{0.45} &
+  \multicolumn{1}{c|}{0.45} \\ \hline
+\multicolumn{1}{|l|}{Vapor Barrier} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} \\ \hline
+\multicolumn{1}{|l|}{Fiberglass Insulation} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{3.5} &
+  \multicolumn{1}{c|}{28} &
+  \multicolumn{1}{c|}{-} \\ \hline
+\multicolumn{1}{|l|}{2" x 8" Wood Stud} &
+  \multicolumn{1}{c|}{16" o.c.} &
+  \multicolumn{1}{c|}{14.68} &
+  \multicolumn{1}{c|}{-} &
+  \multicolumn{1}{c|}{14.68} \\ \hline
+\multicolumn{1}{|l|}{Air Gap} &
+  \multicolumn{1}{c|}{1"} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} \\ \hline
+\multicolumn{1}{|l|}{Wood Cladding} &
+  \multicolumn{1}{c|}{3/4"} &
+  \multicolumn{1}{c|}{0.93} &
+  \multicolumn{1}{c|}{0.93} &
+  \multicolumn{1}{c|}{0.93} \\ \hline
+\multicolumn{1}{|l|}{Air Film} &
+  \multicolumn{1}{c|}{Exterior} &
+  \multicolumn{1}{c|}{0.17} &
+  \multicolumn{1}{c|}{0.17} &
+  \multicolumn{1}{c|}{0.17} \\ \hline
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{\textbf{R-Total:}} &
+  \multicolumn{1}{c|}{31.23} &
+  \multicolumn{1}{c|}{17.91} \\ \cline{3-5} 
+ &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} &
+  \textit{x 85\%} &
+  \textit{x 15\%} \\
+ &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} &
+  26.5455 &
+  2.6865 \\ \cline{3-5} 
+ &
+  \multicolumn{1}{l|}{} &
+  \multicolumn{1}{c|}{\textbf{Wall R-Value:}} &
+  \multicolumn{2}{c|}{29.232} \\ \cline{3-5} 
+ &
+  \multicolumn{1}{l|}{} &
+  \multicolumn{1}{l|}{\textbf{Wall U-Value:}} &
+  \multicolumn{2}{c|}{0.0342} \\ \cline{3-5} 
+ &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{}
+\end{tabular}%
+}
+\caption{Wall Assembly R- and U-Values}
+\label{table:wall-assembly}
+\end{table}
+
+\subsection{Energy simulation and analysis}
+Honeybee, part of the open-source Ladybug Tools plugin suite for Grasshopper and Rhino, has become an industry standard for daylighting simulation and energy modeling within architecture and engineering. 
+%TODO expand how Honeybee works with energyplus and other tools to calculate energy statistics.
+Trees are represented via spherical meshes created using Grasshopper, a visual programming tool for Rhinoceros, and placed where necessary based on the .DWG file. These trees vary in opaque triangulated mesh coverage to simulate foliage cover and to more accurately cast shadows. Originally, trees were represented as simple cylindrical solids, which increased optimization rate and speed of energy analysis, but decreased validity and accuracy of results.
+
+\subsection{Genetic algorithm}
+Genetic algorithms (GA) operate using logic that largely mimics evolutionary biological models to optimize a value. Fitness functions are the means by which to objectively evaluate the strength of individual designs. In this case, the fitness function specified works to minimize the resultant EUI value of each DADU design. Work was initially done using a purely Python-based GA script, but later pivoted to utilizing Galapagos, a genetic solver plugin that ships with Grasshopper. Galapagos offers a simple user interface and more direct integration within Grasshopper at the cost of advanced options. These options however were not necessary for the level of optimization required within this project.
+
+%Together, the contextual 3D model, the specific design iteration of the DADU with varying WWRs, and the EUI value 
 \section{Results}
 
 \section{Conclusion}
-
-\subsection{Future work}
-Benefit of a pure python tool 
+%TODO Add main conclusion section
+%TODO Benefit of a pure python tool 
 Looking forward, moving on from the Grasshopper platform gives the benefit of non-reliance on developers to maintain the software in which the tool depends. Creation of such a tool in a singular programming language (in this case Python) further offers the ability to quickly and easily run the tool on a high variance of devices. In turn, this theoretically increases the rate of adoption by lowering the requirement to use the design tool. Additionally, Python is used within Rhino/Grasshopper (or a flavor thereof), provides many useful math and geometry libraries, and has options for injection into a web app (Flask and Django).
-Limitations of Galapagos/Grasshopper workflow
-Utilizing Galapagos and Grasshopper offers a ‘sandbox’ environment to begin to understand genetic algorithms and to arrive at tangible design solutions faster than using a home-brewed algorithm. Galapagos offers many fewer input parameters and a much narrower scope in which to define the fitness function. In its out-of-the-box form, Galapagos only accepts number sliders as input and can only optimize integers and floats- in reality, there is not means in which to define a true fitness function, only numerical values to target. 
+%TODO Limitations of Galapagos/Grasshopper workflow
+Utilizing Grasshopper and Galapagos offers a ‘sandbox’ environment to begin to understand genetic algorithms and to arrive at tangible design solutions faster than using a home-brewed algorithm. Galapagos offers many fewer input parameters and a much narrower scope in which to define the fitness function. In its out-of-the-box form, Galapagos only accepts number sliders as input and can only optimize integers and floats- in reality, there is not means in which to define a true fitness function, only numerical values to target. 
+
+***User ability to override window sizing and placement- feedback loop?
 
 
-Figures are called in as follows:
-\begin{verbatim}
-\begin{figure}
-\centering
-\includegraphics{<figure name>}
-\caption{<Figure caption>}
-\end{figure}
-\end{verbatim}
-
+%Figures are called in as follows:
+%\begin{verbatim}
 %\begin{figure}
-%\setlength{\fboxsep}{0pt}%
-%\setlength{\fboxrule}{0pt}%
-%\begin{center}
-%\begin{boxedverbatim}
-%\begin{table}
-%\small\sf\centering
-%\caption{<Table caption.>}
-%\begin{tabular}{<table alignment>}
-%\toprule
-%<column headings>\\
-%\midrule
-%<table entries
-%(separated by & as usual)>\\
-%<table entries>\\
-%.
-%.
-%.\\
-%\bottomrule
-%\end{tabular}
-%\end{table}
-%\end{boxedverbatim}
-%\end{center}
-%\caption{Example table layout.\label{F2}}
+%\centering
+%\includegraphics{<figure name>}
+%\caption{<Figure caption>}
 %\end{figure}
+%\end{verbatim}
 
 %\subsection{Cross-referencing}
 %The use of the \LaTeX\ cross-reference system
@@ -140,6 +237,7 @@ statutory  rights you may have remain unaffected by your
 acceptance of these rules of use.
 
 \begin{acks}
+%TODO acknowledge Tomas, Teresa, Rick Mohler, eScience for Social Good team behind ADUniverse, Alex, other students in the class who reviewed my shit.
 This class file was developed by Sunrise Setting Ltd,
 Brixham, Devon, UK.\\
 Website: \url{http://www.sunrise-setting.co.uk}

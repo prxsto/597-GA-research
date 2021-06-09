@@ -1,0 +1,12 @@
+site 1 : 961 20th ave
+site 2 : 
+site 3 : 
+
+all run @:
+max stag: 50
+population: 75
+initial boost: 4x
+maintain: 5%
+inbredding: +75%
+
+run for 15 generations

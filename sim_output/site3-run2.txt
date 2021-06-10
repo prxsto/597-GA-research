@@ -1,0 +1,3129 @@
+Galapagos Species Record
+------------------------
+Created on: Wednesday, 09 June 2021  (21:43:45)
+
+
+Generation 1
+{
+  Bio-Diversity: 0.989
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.77, Genes [8% · 31% · 18% · 14%]
+  Genome[2], Fitness=64.86, Genes [55% · 3% · 11% · 0%]
+  Genome[3], Fitness=65.04, Genes [27% · 3% · 23% · 18%]
+  Genome[4], Fitness=65.04, Genes [0% · 63% · 1% · 11%]
+  Genome[5], Fitness=65.06, Genes [21% · 9% · 24% · 18%]
+  Genome[6], Fitness=65.09, Genes [47% · 0% · 2% · 6%]
+  Genome[7], Fitness=65.17, Genes [8% · 0% · 25% · 32%]
+  Genome[8], Fitness=65.20, Genes [44% · 22% · 2% · 9%]
+  Genome[9], Fitness=65.22, Genes [31% · 38% · 8% · 13%]
+  Genome[10], Fitness=65.47, Genes [54% · 17% · 1% · 16%]
+  Genome[11], Fitness=65.52, Genes [9% · 45% · 18% · 21%]
+  Genome[12], Fitness=65.61, Genes [3% · 58% · 8% · 28%]
+  Genome[13], Fitness=65.75, Genes [13% · 53% · 13% · 25%]
+  Genome[14], Fitness=65.90, Genes [7% · 26% · 38% · 12%]
+  Genome[15], Fitness=66.33, Genes [27% · 6% · 4% · 63%]
+  Genome[16], Fitness=66.40, Genes [47% · 75% · 1% · 13%]
+  Genome[17], Fitness=66.48, Genes [0% · 29% · 31% · 37%]
+  Genome[18], Fitness=66.51, Genes [77% · 31% · 19% · 7%]
+  Genome[19], Fitness=66.61, Genes [6% · 37% · 17% · 53%]
+  Genome[20], Fitness=66.69, Genes [96% · 9% · 21% · 9%]
+  Genome[21], Fitness=66.71, Genes [84% · 21% · 22% · 8%]
+  Genome[22], Fitness=66.73, Genes [48% · 31% · 19% · 29%]
+  Genome[23], Fitness=66.80, Genes [8% · 49% · 19% · 43%]
+  Genome[24], Fitness=66.85, Genes [27% · 86% · 9% · 19%]
+  Genome[25], Fitness=66.94, Genes [80% · 0% · 18% · 34%]
+  Genome[26], Fitness=67.09, Genes [73% · 3% · 8% · 52%]
+  Genome[27], Fitness=67.09, Genes [18% · 31% · 14% · 62%]
+  Genome[28], Fitness=67.13, Genes [83% · 6% · 7% · 45%]
+  Genome[29], Fitness=67.21, Genes [46% · 11% · 29% · 35%]
+  Genome[30], Fitness=67.38, Genes [56% · 78% · 1% · 28%]
+  Genome[31], Fitness=67.41, Genes [6% · 97% · 0% · 49%]
+  Genome[32], Fitness=67.45, Genes [41% · 37% · 34% · 18%]
+  Genome[33], Fitness=67.50, Genes [14% · 40% · 26% · 46%]
+  Genome[34], Fitness=67.55, Genes [66% · 41% · 1% · 52%]
+  Genome[35], Fitness=67.55, Genes [7% · 29% · 11% · 79%]
+  Genome[36], Fitness=67.60, Genes [38% · 49% · 18% · 41%]
+  Genome[37], Fitness=67.70, Genes [39% · 40% · 27% · 33%]
+  Genome[38], Fitness=67.72, Genes [4% · 15% · 53% · 19%]
+  Genome[39], Fitness=67.77, Genes [12% · 37% · 19% · 65%]
+  Genome[40], Fitness=67.80, Genes [46% · 23% · 0% · 78%]
+  Genome[41], Fitness=67.83, Genes [3% · 51% · 20% · 61%]
+  Genome[42], Fitness=67.85, Genes [41% · 9% · 4% · 84%]
+  Genome[43], Fitness=67.86, Genes [77% · 35% · 1% · 56%]
+  Genome[44], Fitness=67.86, Genes [71% · 17% · 11% · 58%]
+  Genome[45], Fitness=67.87, Genes [88% · 15% · 24% · 27%]
+  Genome[46], Fitness=67.87, Genes [81% · 5% · 2% · 67%]
+  Genome[47], Fitness=67.94, Genes [49% · 55% · 36% · 4%]
+  Genome[48], Fitness=67.95, Genes [31% · 85% · 32% · 1%]
+  Genome[49], Fitness=68.11, Genes [57% · 99% · 9% · 16%]
+  Genome[50], Fitness=68.19, Genes [74% · 89% · 2% · 24%]
+  Genome[51], Fitness=68.20, Genes [11% · 78% · 29% · 26%]
+  Genome[52], Fitness=68.38, Genes [86% · 97% · 0% · 18%]
+  Genome[53], Fitness=68.48, Genes [34% · 21% · 35% · 46%]
+  Genome[54], Fitness=68.53, Genes [88% · 68% · 25% · 0%]
+  Genome[55], Fitness=68.55, Genes [9% · 58% · 3% · 89%]
+  Genome[56], Fitness=68.56, Genes [8% · 88% · 23% · 38%]
+  Genome[57], Fitness=68.58, Genes [56% · 62% · 21% · 33%]
+  Genome[58], Fitness=68.69, Genes [58% · 25% · 15% · 67%]
+  Genome[59], Fitness=68.89, Genes [39% · 4% · 28% · 69%]
+  Genome[60], Fitness=68.90, Genes [94% · 45% · 11% · 45%]
+  Genome[61], Fitness=69.00, Genes [68% · 7% · 28% · 55%]
+  Genome[62], Fitness=69.04, Genes [45% · 40% · 34% · 38%]
+  Genome[63], Fitness=69.06, Genes [6% · 40% · 57% · 11%]
+  Genome[64], Fitness=69.24, Genes [54% · 94% · 9% · 42%]
+  Genome[65], Fitness=69.25, Genes [93% · 34% · 29% · 26%]
+  Genome[66], Fitness=69.30, Genes [58% · 53% · 16% · 59%]
+  Genome[67], Fitness=69.47, Genes [63% · 59% · 21% · 45%]
+  Genome[68], Fitness=69.48, Genes [48% · 75% · 21% · 42%]
+  Genome[69], Fitness=69.48, Genes [86% · 1% · 15% · 77%]
+  Genome[70], Fitness=69.51, Genes [43% · 69% · 45% · 1%]
+  Genome[71], Fitness=69.52, Genes [54% · 34% · 7% · 89%]
+  Genome[72], Fitness=69.53, Genes [93% · 64% · 0% · 60%]
+  Genome[73], Fitness=69.58, Genes [35% · 81% · 40% · 9%]
+  Genome[74], Fitness=69.59, Genes [64% · 45% · 16% · 64%]
+  Genome[75], Fitness=69.61, Genes [17% · 22% · 63% · 8%]
+  Genome[76], Fitness=69.69, Genes [97% · 4% · 54% · 0%]
+  Genome[77], Fitness=69.75, Genes [25% · 23% · 34% · 68%]
+  Genome[78], Fitness=69.75, Genes [91% · 14% · 49% · 7%]
+  Genome[79], Fitness=69.76, Genes [41% · 6% · 22% · 92%]
+  Genome[80], Fitness=69.76, Genes [3% · 87% · 16% · 72%]
+  Genome[81], Fitness=69.80, Genes [32% · 36% · 14% · 96%]
+  Genome[82], Fitness=69.81, Genes [15% · 71% · 11% · 86%]
+  Genome[83], Fitness=69.86, Genes [94% · 72% · 31% · 6%]
+  Genome[84], Fitness=69.99, Genes [84% · 79% · 23% · 22%]
+  Genome[85], Fitness=70.03, Genes [35% · 41% · 48% · 26%]
+  Genome[86], Fitness=70.24, Genes [76% · 35% · 14% · 77%]
+  Genome[87], Fitness=70.36, Genes [83% · 19% · 40% · 37%]
+  Genome[88], Fitness=70.37, Genes [78% · 97% · 27% · 12%]
+  Genome[89], Fitness=70.41, Genes [35% · 31% · 27% · 79%]
+  Genome[90], Fitness=70.43, Genes [20% · 45% · 43% · 48%]
+  Genome[91], Fitness=70.48, Genes [27% · 32% · 45% · 49%]
+  Genome[92], Fitness=70.52, Genes [39% · 32% · 24% · 84%]
+  Genome[93], Fitness=70.56, Genes [99% · 49% · 13% · 63%]
+  Genome[94], Fitness=70.59, Genes [47% · 6% · 31% · 83%]
+  Genome[95], Fitness=70.64, Genes [36% · 20% · 38% · 68%]
+  Genome[96], Fitness=70.65, Genes [56% · 2% · 51% · 43%]
+  Genome[97], Fitness=70.76, Genes [81% · 63% · 11% · 69%]
+  Genome[98], Fitness=70.77, Genes [34% · 77% · 16% · 76%]
+  Genome[99], Fitness=70.83, Genes [43% · 6% · 65% · 15%]
+  Genome[100], Fitness=70.85, Genes [53% · 98% · 40% · 6%]
+  Genome[101], Fitness=70.89, Genes [45% · 82% · 0% · 98%]
+  Genome[102], Fitness=70.90, Genes [83% · 37% · 34% · 46%]
+  Genome[103], Fitness=70.93, Genes [32% · 60% · 16% · 93%]
+  Genome[104], Fitness=71.00, Genes [69% · 46% · 18% · 77%]
+  Genome[105], Fitness=71.06, Genes [81% · 84% · 24% · 35%]
+  Genome[106], Fitness=71.09, Genes [53% · 46% · 25% · 74%]
+  Genome[107], Fitness=71.27, Genes [46% · 51% · 19% · 89%]
+  Genome[108], Fitness=71.36, Genes [11% · 94% · 51% · 16%]
+  Genome[109], Fitness=71.43, Genes [43% · 22% · 48% · 53%]
+  Genome[110], Fitness=71.43, Genes [89% · 67% · 40% · 16%]
+  Genome[111], Fitness=71.43, Genes [7% · 98% · 42% · 35%]
+  Genome[112], Fitness=71.44, Genes [54% · 25% · 63% · 11%]
+  Genome[113], Fitness=71.46, Genes [94% · 95% · 8% · 57%]
+  Genome[114], Fitness=71.53, Genes [76% · 92% · 21% · 46%]
+  Genome[115], Fitness=71.56, Genes [49% · 93% · 42% · 17%]
+  Genome[116], Fitness=71.62, Genes [84% · 61% · 49% · 5%]
+  Genome[117], Fitness=71.67, Genes [23% · 36% · 55% · 43%]
+  Genome[118], Fitness=71.78, Genes [2% · 94% · 22% · 84%]
+  Genome[119], Fitness=71.80, Genes [86% · 7% · 53% · 35%]
+  Genome[120], Fitness=71.84, Genes [85% · 58% · 16% · 77%]
+  Genome[121], Fitness=71.88, Genes [75% · 20% · 54% · 32%]
+  Genome[122], Fitness=71.91, Genes [23% · 97% · 24% · 69%]
+  Genome[123], Fitness=71.93, Genes [96% · 2% · 26% · 88%]
+  Genome[124], Fitness=72.01, Genes [63% · 89% · 42% · 18%]
+  Genome[125], Fitness=72.02, Genes [75% · 0% · 67% · 13%]
+  Genome[126], Fitness=72.06, Genes [92% · 35% · 21% · 82%]
+  Genome[127], Fitness=72.15, Genes [43% · 12% · 60% · 41%]
+  Genome[128], Fitness=72.21, Genes [42% · 31% · 58% · 36%]
+  Genome[129], Fitness=72.23, Genes [94% · 64% · 25% · 58%]
+  Genome[130], Fitness=72.28, Genes [94% · 46% · 21% · 77%]
+  Genome[131], Fitness=72.43, Genes [98% · 76% · 34% · 33%]
+  Genome[132], Fitness=72.47, Genes [34% · 74% · 35% · 65%]
+  Genome[133], Fitness=72.47, Genes [52% · 61% · 29% · 75%]
+  Genome[134], Fitness=72.47, Genes [57% · 85% · 26% · 63%]
+  Genome[135], Fitness=72.47, Genes [92% · 66% · 27% · 57%]
+  Genome[136], Fitness=72.58, Genes [37% · 93% · 40% · 42%]
+  Genome[137], Fitness=72.67, Genes [1% · 66% · 65% · 20%]
+  Genome[138], Fitness=72.70, Genes [12% · 71% · 28% · 96%]
+  Genome[139], Fitness=72.72, Genes [53% · 66% · 35% · 64%]
+  Genome[140], Fitness=72.73, Genes [66% · 45% · 42% · 57%]
+  Genome[141], Fitness=72.78, Genes [78% · 14% · 64% · 20%]
+  Genome[142], Fitness=72.94, Genes [11% · 44% · 65% · 34%]
+  Genome[143], Fitness=72.96, Genes [87% · 43% · 34% · 67%]
+  Genome[144], Fitness=73.00, Genes [22% · 32% · 46% · 79%]
+  Genome[145], Fitness=73.01, Genes [52% · 45% · 53% · 44%]
+  Genome[146], Fitness=73.01, Genes [16% · 95% · 33% · 72%]
+  Genome[147], Fitness=73.07, Genes [74% · 32% · 33% · 84%]
+  Genome[148], Fitness=73.13, Genes [55% · 76% · 23% · 84%]
+  Genome[149], Fitness=73.31, Genes [1% · 36% · 44% · 98%]
+  Genome[150], Fitness=73.32, Genes [34% · 12% · 43% · 99%]
+  Genome[151], Fitness=73.36, Genes [87% · 63% · 51% · 23%]
+  Genome[152], Fitness=73.41, Genes [28% · 59% · 34% · 93%]
+  Genome[153], Fitness=73.47, Genes [97% · 2% · 53% · 55%]
+  Genome[154], Fitness=73.60, Genes [79% · 33% · 41% · 71%]
+  Genome[155], Fitness=73.65, Genes [85% · 26% · 69% · 6%]
+  Genome[156], Fitness=73.80, Genes [72% · 8% · 58% · 55%]
+  Genome[157], Fitness=73.87, Genes [24% · 88% · 31% · 86%]
+  Genome[158], Fitness=73.88, Genes [92% · 77% · 46% · 27%]
+  Genome[159], Fitness=74.03, Genes [87% · 85% · 48% · 21%]
+  Genome[160], Fitness=74.05, Genes [85% · 20% · 44% · 74%]
+  Genome[161], Fitness=74.10, Genes [52% · 99% · 29% · 72%]
+  Genome[162], Fitness=74.15, Genes [9% · 37% · 56% · 75%]
+  Genome[163], Fitness=74.23, Genes [60% · 56% · 58% · 36%]
+  Genome[164], Fitness=74.28, Genes [99% · 82% · 17% · 86%]
+  Genome[165], Fitness=74.32, Genes [69% · 74% · 24% · 94%]
+  Genome[166], Fitness=74.49, Genes [64% · 67% · 37% · 75%]
+  Genome[167], Fitness=74.49, Genes [34% · 82% · 55% · 41%]
+  Genome[168], Fitness=74.53, Genes [0% · 41% · 57% · 78%]
+  Genome[169], Fitness=74.65, Genes [96% · 19% · 47% · 71%]
+  Genome[170], Fitness=74.72, Genes [39% · 49% · 75% · 13%]
+  Genome[171], Fitness=74.77, Genes [5% · 60% · 61% · 58%]
+  Genome[172], Fitness=74.87, Genes [39% · 74% · 67% · 17%]
+  Genome[173], Fitness=74.88, Genes [67% · 65% · 35% · 84%]
+  Genome[174], Fitness=74.93, Genes [85% · 91% · 35% · 61%]
+  Genome[175], Fitness=74.94, Genes [96% · 33% · 38% · 86%]
+  Genome[176], Fitness=74.99, Genes [65% · 13% · 65% · 52%]
+  Genome[177], Fitness=75.06, Genes [99% · 57% · 27% · 95%]
+  Genome[178], Fitness=75.15, Genes [49% · 1% · 92% · 2%]
+  Genome[179], Fitness=75.19, Genes [88% · 54% · 40% · 75%]
+  Genome[180], Fitness=75.23, Genes [11% · 87% · 61% · 42%]
+  Genome[181], Fitness=75.31, Genes [97% · 56% · 35% · 82%]
+  Genome[182], Fitness=75.38, Genes [86% · 80% · 62% · 9%]
+  Genome[183], Fitness=75.69, Genes [58% · 20% · 80% · 20%]
+  Genome[184], Fitness=75.70, Genes [22% · 27% · 65% · 69%]
+  Genome[185], Fitness=75.72, Genes [25% · 31% · 81% · 26%]
+  Genome[186], Fitness=75.72, Genes [85% · 63% · 66% · 16%]
+  Genome[187], Fitness=75.89, Genes [17% · 69% · 76% · 20%]
+  Genome[188], Fitness=75.95, Genes [12% · 22% · 86% · 28%]
+  Genome[189], Fitness=75.97, Genes [29% · 76% · 56% · 62%]
+  Genome[190], Fitness=75.97, Genes [18% · 27% · 59% · 91%]
+  Genome[191], Fitness=76.04, Genes [27% · 24% · 64% · 75%]
+  Genome[192], Fitness=76.07, Genes [23% · 98% · 69% · 18%]
+  Genome[193], Fitness=76.07, Genes [86% · 25% · 45% · 95%]
+  Genome[194], Fitness=76.14, Genes [2% · 77% · 46% · 99%]
+  Genome[195], Fitness=76.21, Genes [13% · 89% · 69% · 29%]
+  Genome[196], Fitness=76.38, Genes [36% · 41% · 71% · 51%]
+  Genome[197], Fitness=76.38, Genes [46% · 59% · 77% · 17%]
+  Genome[198], Fitness=76.41, Genes [1% · 84% · 63% · 57%]
+  Genome[199], Fitness=76.49, Genes [81% · 88% · 45% · 61%]
+  Genome[200], Fitness=76.50, Genes [39% · 40% · 54% · 93%]
+  Genome[201], Fitness=76.54, Genes [57% · 86% · 64% · 28%]
+  Genome[202], Fitness=76.55, Genes [78% · 77% · 47% · 65%]
+  Genome[203], Fitness=76.62, Genes [92% · 37% · 62% · 53%]
+  Genome[204], Fitness=76.64, Genes [34% · 0% · 63% · 98%]
+  Genome[205], Fitness=76.66, Genes [33% · 71% · 54% · 76%]
+  Genome[206], Fitness=76.69, Genes [66% · 85% · 66% · 21%]
+  Genome[207], Fitness=76.94, Genes [54% · 59% · 57% · 71%]
+  Genome[208], Fitness=77.09, Genes [46% · 38% · 60% · 80%]
+  Genome[209], Fitness=77.10, Genes [13% · 33% · 78% · 55%]
+  Genome[210], Fitness=77.21, Genes [75% · 34% · 88% · 2%]
+  Genome[211], Fitness=77.23, Genes [72% · 68% · 80% · 0%]
+  Genome[212], Fitness=77.25, Genes [52% · 2% · 91% · 27%]
+  Genome[213], Fitness=77.36, Genes [80% · 4% · 65% · 76%]
+  Genome[214], Fitness=77.41, Genes [25% · 39% · 64% · 82%]
+  Genome[215], Fitness=77.47, Genes [46% · 40% · 85% · 21%]
+  Genome[216], Fitness=77.47, Genes [33% · 18% · 82% · 48%]
+  Genome[217], Fitness=77.49, Genes [78% · 92% · 40% · 83%]
+  Genome[218], Fitness=77.50, Genes [16% · 99% · 81% · 6%]
+  Genome[219], Fitness=77.62, Genes [64% · 94% · 73% · 12%]
+  Genome[220], Fitness=77.68, Genes [74% · 4% · 62% · 92%]
+  Genome[221], Fitness=77.71, Genes [43% · 37% · 82% · 35%]
+  Genome[222], Fitness=77.78, Genes [69% · 35% · 56% · 93%]
+  Genome[223], Fitness=77.80, Genes [36% · 11% · 99% · 16%]
+  Genome[224], Fitness=77.80, Genes [67% · 18% · 98% · 0%]
+  Genome[225], Fitness=77.87, Genes [9% · 85% · 87% · 6%]
+  Genome[226], Fitness=77.96, Genes [24% · 59% · 82% · 32%]
+  Genome[227], Fitness=78.07, Genes [8% · 87% · 65% · 64%]
+  Genome[228], Fitness=78.07, Genes [89% · 12% · 81% · 37%]
+  Genome[229], Fitness=78.10, Genes [81% · 88% · 39% · 96%]
+  Genome[230], Fitness=78.26, Genes [16% · 92% · 69% · 51%]
+  Genome[231], Fitness=78.26, Genes [87% · 84% · 54% · 63%]
+  Genome[232], Fitness=78.30, Genes [16% · 57% · 99% · 1%]
+  Genome[233], Fitness=78.38, Genes [11% · 37% · 67% · 95%]
+  Genome[234], Fitness=78.45, Genes [71% · 13% · 78% · 57%]
+  Genome[235], Fitness=78.59, Genes [61% · 42% · 72% · 61%]
+  Genome[236], Fitness=78.63, Genes [43% · 97% · 71% · 37%]
+  Genome[237], Fitness=78.71, Genes [31% · 11% · 75% · 84%]
+  Genome[238], Fitness=78.82, Genes [47% · 52% · 93% · 12%]
+  Genome[239], Fitness=78.85, Genes [45% · 15% · 68% · 96%]
+  Genome[240], Fitness=78.85, Genes [49% · 21% · 95% · 25%]
+  Genome[241], Fitness=78.91, Genes [46% · 95% · 67% · 48%]
+  Genome[242], Fitness=78.93, Genes [16% · 8% · 95% · 48%]
+  Genome[243], Fitness=78.97, Genes [7% · 13% · 81% · 79%]
+  Genome[244], Fitness=79.01, Genes [36% · 99% · 56% · 79%]
+  Genome[245], Fitness=79.12, Genes [63% · 83% · 55% · 80%]
+  Genome[246], Fitness=79.15, Genes [80% · 93% · 81% · 1%]
+  Genome[247], Fitness=79.18, Genes [22% · 80% · 75% · 51%]
+  Genome[248], Fitness=79.21, Genes [63% · 25% · 95% · 21%]
+  Genome[249], Fitness=79.36, Genes [86% · 63% · 76% · 35%]
+  Genome[250], Fitness=79.48, Genes [94% · 46% · 69% · 61%]
+  Genome[251], Fitness=79.50, Genes [39% · 73% · 92% · 11%]
+  Genome[252], Fitness=79.59, Genes [47% · 83% · 73% · 48%]
+  Genome[253], Fitness=79.83, Genes [78% · 5% · 87% · 52%]
+  Genome[254], Fitness=79.85, Genes [40% · 37% · 83% · 58%]
+  Genome[255], Fitness=79.94, Genes [80% · 78% · 63% · 66%]
+  Genome[256], Fitness=79.98, Genes [97% · 73% · 87% · 2%]
+  Genome[257], Fitness=80.03, Genes [33% · 93% · 93% · 4%]
+  Genome[258], Fitness=80.11, Genes [89% · 57% · 63% · 78%]
+  Genome[259], Fitness=80.24, Genes [39% · 3% · 82% · 83%]
+  Genome[260], Fitness=80.44, Genes [9% · 20% · 82% · 88%]
+  Genome[261], Fitness=80.51, Genes [27% · 51% · 96% · 33%]
+  Genome[262], Fitness=80.51, Genes [76% · 27% · 89% · 42%]
+  Genome[263], Fitness=80.60, Genes [26% · 93% · 80% · 43%]
+  Genome[264], Fitness=80.79, Genes [77% · 95% · 79% · 26%]
+  Genome[265], Fitness=80.83, Genes [40% · 86% · 78% · 49%]
+  Genome[266], Fitness=80.97, Genes [65% · 35% · 76% · 78%]
+  Genome[267], Fitness=81.22, Genes [19% · 15% · 92% · 74%]
+  Genome[268], Fitness=81.40, Genes [85% · 73% · 73% · 61%]
+  Genome[269], Fitness=81.53, Genes [12% · 74% · 76% · 80%]
+  Genome[270], Fitness=81.56, Genes [76% · 91% · 61% · 84%]
+  Genome[271], Fitness=81.62, Genes [9% · 79% · 71% · 95%]
+  Genome[272], Fitness=81.83, Genes [75% · 59% · 86% · 45%]
+  Genome[273], Fitness=81.83, Genes [60% · 80% · 93% · 21%]
+  Genome[274], Fitness=82.10, Genes [99% · 97% · 60% · 81%]
+  Genome[275], Fitness=82.17, Genes [67% · 13% · 87% · 76%]
+  Genome[276], Fitness=82.32, Genes [83% · 26% · 96% · 46%]
+  Genome[277], Fitness=82.32, Genes [52% · 87% · 67% · 88%]
+  Genome[278], Fitness=82.39, Genes [87% · 76% · 66% · 85%]
+  Genome[279], Fitness=82.51, Genes [61% · 89% · 96% · 16%]
+  Genome[280], Fitness=82.83, Genes [28% · 78% · 99% · 32%]
+  Genome[281], Fitness=82.94, Genes [48% · 76% · 87% · 54%]
+  Genome[282], Fitness=82.94, Genes [92% · 93% · 68% · 75%]
+  Genome[283], Fitness=82.95, Genes [15% · 98% · 92% · 44%]
+  Genome[284], Fitness=83.28, Genes [67% · 77% · 73% · 85%]
+  Genome[285], Fitness=83.44, Genes [47% · 32% · 84% · 96%]
+  Genome[286], Fitness=83.51, Genes [79% · 80% · 72% · 84%]
+  Genome[287], Fitness=83.54, Genes [40% · 39% · 97% · 65%]
+  Genome[288], Fitness=83.69, Genes [88% · 86% · 77% · 66%]
+  Genome[289], Fitness=83.82, Genes [84% · 17% · 86% · 89%]
+  Genome[290], Fitness=83.97, Genes [20% · 69% · 88% · 76%]
+  Genome[291], Fitness=84.14, Genes [74% · 77% · 73% · 95%]
+  Genome[292], Fitness=84.23, Genes [36% · 79% · 81% · 83%]
+  Genome[293], Fitness=84.69, Genes [2% · 88% · 92% · 72%]
+  Genome[294], Fitness=84.90, Genes [29% · 88% · 81% · 88%]
+  Genome[295], Fitness=84.98, Genes [42% · 89% · 77% · 97%]
+  Genome[296], Fitness=85.22, Genes [31% · 49% · 93% · 91%]
+  Genome[297], Fitness=86.77, Genes [78% · 44% · 99% · 79%]
+  Genome[298], Fitness=87.22, Genes [51% · 76% · 98% · 75%]
+  Genome[299], Fitness=88.48, Genes [91% · 83% · 89% · 95%]
+}
+
+Generation 2
+{
+  Bio-Diversity: 0.929
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.77, Genes [8% · 31% · 18% · 14%]
+  {
+    Record: Point Mutation at index 1: 0.7368 -> 0.7379
+    Record: Point Mutation at index 0: 0.3474 -> 0.3437
+  }
+  Genome[2], Fitness=64.86, Genes [55% · 3% · 11% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.3579 -> 0.3539
+  }
+  Genome[3], Fitness=64.91, Genes [37% · 7% · 25% · 4%]
+  Genome[4], Fitness=65.70, Genes [60% · 2% · 2% · 26%]
+  {
+    Record: Point Mutation at index 0: 0.4947 -> 0.4965
+  }
+  Genome[5], Fitness=65.71, Genes [48% · 31% · 19% · 8%]
+  Genome[6], Fitness=65.84, Genes [0% · 36% · 24% · 32%]
+  {
+    Record: Point Mutation at index 0: 0.6526 -> 0.6561
+  }
+  Genome[7], Fitness=66.23, Genes [6% · 29% · 18% · 48%]
+  Genome[8], Fitness=66.43, Genes [4% · 15% · 53% · 0%]
+  Genome[9], Fitness=66.67, Genes [15% · 24% · 22% · 48%]
+  Genome[10], Fitness=66.90, Genes [29% · 66% · 27% · 6%]
+  Genome[11], Fitness=66.91, Genes [6% · 37% · 17% · 58%]
+  {
+    Record: Point Mutation at index 2: 0.3895 -> 0.3894
+  }
+  Genome[12], Fitness=66.95, Genes [45% · 33% · 18% · 36%]
+  {
+    Record: Point Mutation at index 3: 0.5158 -> 0.5182
+  }
+  Genome[13], Fitness=67.04, Genes [73% · 3% · 7% · 52%]
+  Genome[14], Fitness=67.05, Genes [22% · 31% · 32% · 31%]
+  {
+    Record: Point Mutation at index 1: 0.7789 -> 0.8038
+  }
+  Genome[15], Fitness=67.07, Genes [31% · 37% · 34% · 18%]
+  {
+    Record: Point Mutation at index 0: 0.6737 -> 0.6171
+  }
+  Genome[16], Fitness=67.20, Genes [38% · 60% · 31% · 5%]
+  Genome[17], Fitness=67.48, Genes [3% · 94% · 9% · 42%]
+  {
+    Record: Point Mutation at index 2: 0.6105 -> 0.6109
+  }
+  Genome[18], Fitness=67.49, Genes [0% · 4% · 28% · 69%]
+  Genome[19], Fitness=68.14, Genes [51% · 59% · 17% · 38%]
+  Genome[20], Fitness=68.29, Genes [63% · 23% · 0% · 78%]
+  {
+    Record: Point Mutation at index 1: 0.8 -> 0.8011
+  }
+  Genome[21], Fitness=68.32, Genes [35% · 49% · 19% · 54%]
+  Genome[22], Fitness=68.59, Genes [22% · 39% · 37% · 39%]
+  Genome[23], Fitness=68.59, Genes [66% · 49% · 18% · 41%]
+  Genome[24], Fitness=68.69, Genes [83% · 82% · 12% · 19%]
+  Genome[25], Fitness=68.79, Genes [69% · 64% · 0% · 60%]
+  Genome[26], Fitness=68.85, Genes [38% · 4% · 28% · 69%]
+  Genome[27], Fitness=69.00, Genes [31% · 24% · 22% · 75%]
+  Genome[28], Fitness=69.21, Genes [46% · 71% · 31% · 24%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[29], Fitness=69.42, Genes [17% · 28% · 49% · 34%]
+  {
+    Record: Point Mutation at index 0: 0.5684 -> 0.5719
+  }
+  Genome[30], Fitness=69.47, Genes [53% · 41% · 9% · 80%]
+  Genome[31], Fitness=69.58, Genes [43% · 69% · 45% · 2%]
+  {
+    Record: Point Mutation at index 2: 0.3474 -> 0.3493
+  }
+  Genome[32], Fitness=69.63, Genes [75% · 31% · 13% · 73%]
+  Genome[33], Fitness=69.96, Genes [53% · 26% · 54% · 14%]
+  Genome[34], Fitness=70.08, Genes [39% · 29% · 37% · 57%]
+  Genome[35], Fitness=70.12, Genes [37% · 62% · 11% · 84%]
+  Genome[36], Fitness=70.54, Genes [57% · 40% · 22% · 74%]
+  Genome[37], Fitness=70.54, Genes [78% · 97% · 23% · 22%]
+  Genome[38], Fitness=71.21, Genes [75% · 22% · 45% · 40%]
+  Genome[39], Fitness=71.25, Genes [31% · 88% · 23% · 64%]
+  {
+    Record: Point Mutation at index 3: 0.8526 -> 0.8509
+  }
+  Genome[40], Fitness=71.67, Genes [42% · 27% · 54% · 41%]
+  Genome[41], Fitness=71.76, Genes [61% · 82% · 25% · 56%]
+  {
+    Record: Point Mutation at index 1: 0.2632 -> 0.2634
+  }
+  Genome[42], Fitness=72.08, Genes [88% · 48% · 33% · 55%]
+  Genome[43], Fitness=72.14, Genes [79% · 61% · 35% · 47%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> 0.0152
+    Record: Point Mutation at index 0: 0.4316 -> 0.4355
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[44], Fitness=72.16, Genes [92% · 72% · 23% · 57%]
+  Genome[45], Fitness=72.21, Genes [57% · 55% · 47% · 37%]
+  {
+    Record: Point Mutation at index 0: 0.1789 -> 0.1775
+  }
+  Genome[46], Fitness=72.24, Genes [94% · 45% · 21% · 77%]
+  {
+    Record: Point Mutation at index 2: 0.3053 -> 0.3055
+  }
+  Genome[47], Fitness=72.29, Genes [42% · 98% · 23% · 66%]
+  Genome[48], Fitness=72.32, Genes [44% · 72% · 38% · 54%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=72.34, Genes [93% · 67% · 28% · 52%]
+  Genome[50], Fitness=72.59, Genes [9% · 27% · 68% · 33%]
+  {
+    Record: Point Mutation at index 0: 0.8421 -> 0.8327
+  }
+  Genome[51], Fitness=72.62, Genes [65% · 58% · 51% · 28%]
+  Genome[52], Fitness=72.72, Genes [0% · 80% · 51% · 47%]
+  {
+    Record: Point Mutation at index 1: 0.3684 -> 0.3998
+  }
+  Genome[53], Fitness=73.18, Genes [46% · 56% · 53% · 42%]
+  Genome[54], Fitness=74.05, Genes [52% · 80% · 62% · 9%]
+  {
+    Record: Point Mutation at index 2: 0.0 -> 0.0029
+  }
+  Genome[55], Fitness=74.25, Genes [57% · 86% · 64% · 0%]
+  Genome[56], Fitness=74.55, Genes [23% · 36% · 55% · 76%]
+  Genome[57], Fitness=74.61, Genes [35% · 39% · 61% · 56%]
+  Genome[58], Fitness=74.79, Genes [24% · 74% · 45% · 75%]
+  {
+    Record: Point Mutation at index 0: 0.3053 -> 0.3815
+  }
+  Genome[59], Fitness=74.83, Genes [61% · 13% · 65% · 52%]
+  Genome[60], Fitness=75.04, Genes [1% · 80% · 49% · 75%]
+  Genome[61], Fitness=75.35, Genes [34% · 12% · 65% · 69%]
+  {
+    Record: Point Mutation at index 2: 0.0842 -> 0.0802
+  }
+  Genome[62], Fitness=75.36, Genes [82% · 84% · 44% · 52%]
+  {
+    Record: Point Mutation at index 2: 0.2316 -> 0.1822
+  }
+  Genome[63], Fitness=75.74, Genes [82% · 78% · 38% · 73%]
+  Genome[64], Fitness=75.78, Genes [66% · 9% · 54% · 89%]
+  {
+    Record: Point Mutation at index 3: 0.0737 -> 0.0677
+  }
+  Genome[65], Fitness=75.97, Genes [36% · 59% · 77% · 17%]
+  {
+    Record: Point Mutation at index 2: 0.2316 -> 0.2261
+  }
+  Genome[66], Fitness=76.28, Genes [37% · 87% · 61% · 42%]
+  Genome[67], Fitness=76.79, Genes [39% · 49% · 71% · 48%]
+  Genome[68], Fitness=77.55, Genes [65% · 20% · 88% · 19%]
+  Genome[69], Fitness=77.81, Genes [36% · 91% · 82% · 3%]
+  Genome[70], Fitness=77.93, Genes [49% · 93% · 65% · 42%]
+  Genome[71], Fitness=77.96, Genes [65% · 28% · 66% · 73%]
+  Genome[72], Fitness=78.67, Genes [35% · 99% · 56% · 76%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[73], Fitness=79.15, Genes [34% · 74% · 87% · 18%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[74], Fitness=80.91, Genes [13% · 12% · 89% · 79%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 3
+{
+  Bio-Diversity: 0.879
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.77, Genes [8% · 31% · 18% · 14%]
+  Genome[2], Fitness=64.86, Genes [55% · 3% · 11% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.5158 -> 0.5136
+  }
+  Genome[3], Fitness=64.88, Genes [55% · 3% · 9% · 0%]
+  Genome[4], Fitness=64.88, Genes [56% · 3% · 11% · 0%]
+  Genome[5], Fitness=65.72, Genes [23% · 15% · 24% · 27%]
+  Genome[6], Fitness=65.78, Genes [11% · 13% · 46% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.4842 -> 0.4806
+  }
+  Genome[7], Fitness=65.78, Genes [7% · 36% · 27% · 21%]
+  Genome[8], Fitness=65.80, Genes [0% · 35% · 24% · 32%]
+  Genome[9], Fitness=66.05, Genes [14% · 36% · 38% · 4%]
+  {
+    Record: Point Mutation at index 2: 0.2526 -> 0.2517
+  }
+  Genome[10], Fitness=66.07, Genes [35% · 29% · 27% · 14%]
+  Genome[11], Fitness=66.08, Genes [47% · 32% · 18% · 18%]
+  Genome[12], Fitness=66.15, Genes [8% · 60% · 31% · 5%]
+  Genome[13], Fitness=66.16, Genes [35% · 29% · 28% · 14%]
+  {
+    Record: Point Mutation at index 1: 0.5579 -> 0.557
+  }
+  Genome[14], Fitness=66.18, Genes [75% · 22% · 18% · 8%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[15], Fitness=66.42, Genes [15% · 24% · 19% · 48%]
+  Genome[16], Fitness=66.65, Genes [69% · 2% · 6% · 46%]
+  Genome[17], Fitness=66.84, Genes [51% · 59% · 17% · 14%]
+  Genome[18], Fitness=66.84, Genes [42% · 33% · 18% · 36%]
+  Genome[19], Fitness=66.85, Genes [31% · 63% · 28% · 5%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[20], Fitness=66.89, Genes [27% · 52% · 17% · 35%]
+  Genome[21], Fitness=66.95, Genes [17% · 38% · 27% · 35%]
+  Genome[22], Fitness=67.01, Genes [22% · 29% · 32% · 31%]
+  Genome[23], Fitness=67.10, Genes [75% · 3% · 7% · 52%]
+  Genome[24], Fitness=67.10, Genes [3% · 80% · 11% · 43%]
+  {
+    Record: Point Mutation at index 3: 0.7579 -> 0.8008
+  }
+  Genome[25], Fitness=67.23, Genes [14% · 15% · 22% · 63%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[26], Fitness=67.26, Genes [31% · 37% · 34% · 21%]
+  Genome[27], Fitness=67.42, Genes [24% · 74% · 9% · 42%]
+  Genome[28], Fitness=67.44, Genes [22% · 37% · 17% · 58%]
+  Genome[29], Fitness=67.59, Genes [29% · 21% · 18% · 63%]
+  {
+    Record: Point Mutation at index 0: 0.4421 -> 0.4595
+  }
+  Genome[30], Fitness=67.71, Genes [36% · 19% · 17% · 64%]
+  Genome[31], Fitness=68.08, Genes [73% · 73% · 3% · 34%]
+  Genome[32], Fitness=68.20, Genes [31% · 46% · 25% · 45%]
+  Genome[33], Fitness=68.26, Genes [31% · 37% · 34% · 37%]
+  Genome[34], Fitness=68.38, Genes [31% · 23% · 35% · 45%]
+  Genome[35], Fitness=68.42, Genes [13% · 32% · 32% · 57%]
+  {
+    Record: Point Mutation at index 2: 0.0947 -> 0.3185
+  }
+  Genome[36], Fitness=68.50, Genes [38% · 24% · 33% · 46%]
+  {
+    Record: Point Mutation at index 2: 0.4526 -> 0.4502
+  }
+  Genome[37], Fitness=68.52, Genes [22% · 39% · 37% · 38%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[38], Fitness=68.52, Genes [7% · 28% · 44% · 38%]
+  {
+    Record: Point Mutation at index 2: 0.3368 -> 0.3352
+  }
+  Genome[39], Fitness=68.58, Genes [67% · 8% · 32% · 42%]
+  Genome[40], Fitness=68.80, Genes [40% · 68% · 41% · 2%]
+  Genome[41], Fitness=68.89, Genes [69% · 38% · 14% · 59%]
+  Genome[42], Fitness=69.18, Genes [71% · 18% · 38% · 32%]
+  Genome[43], Fitness=69.24, Genes [63% · 44% · 15% · 62%]
+  {
+    Record: Point Mutation at index 0: 0.7263 -> 0.7288
+  }
+  Genome[44], Fitness=69.26, Genes [56% · 45% · 7% · 76%]
+  {
+    Record: Point Mutation at index 2: 0.1789 -> 0.1771
+  }
+  Genome[45], Fitness=69.37, Genes [45% · 22% · 44% · 33%]
+  {
+    Record: Point Mutation at index 0: 0.2947 -> 0.2951
+    Record: Point Mutation at index 2: 0.2 -> 0.1813
+  }
+  Genome[46], Fitness=69.66, Genes [27% · 28% · 47% · 36%]
+  Genome[47], Fitness=69.85, Genes [35% · 39% · 54% · 14%]
+  Genome[48], Fitness=70.39, Genes [42% · 27% · 49% · 34%]
+  {
+    Record: Point Mutation at index 3: 0.2632 -> 0.2176
+  }
+  Genome[49], Fitness=70.47, Genes [78% · 97% · 23% · 21%]
+  Genome[50], Fitness=70.66, Genes [53% · 44% · 19% · 80%]
+  Genome[51], Fitness=70.73, Genes [54% · 49% · 41% · 36%]
+  Genome[52], Fitness=71.03, Genes [34% · 12% · 65% · 19%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=71.41, Genes [49% · 52% · 45% · 37%]
+  Genome[54], Fitness=71.55, Genes [75% · 66% · 26% · 55%]
+  {
+    Record: Point Mutation at index 2: 0.2632 -> 0.1703
+  }
+  Genome[55], Fitness=71.59, Genes [49% · 52% · 46% · 37%]
+  Genome[56], Fitness=71.64, Genes [42% · 58% · 47% · 35%]
+  Genome[57], Fitness=71.76, Genes [37% · 33% · 56% · 37%]
+  {
+    Record: Point Mutation at index 3: 0.1368 -> 0.1403
+  }
+  Genome[58], Fitness=71.95, Genes [82% · 64% · 31% · 49%]
+  Genome[59], Fitness=72.02, Genes [20% · 64% · 36% · 71%]
+  {
+    Record: Point Mutation at index 2: 0.2211 -> 0.1976
+  }
+  Genome[60], Fitness=72.11, Genes [92% · 71% · 23% · 57%]
+  {
+    Record: Point Mutation at index 2: 0.1895 -> 0.1853
+  }
+  Genome[61], Fitness=72.30, Genes [69% · 55% · 46% · 34%]
+  Genome[62], Fitness=72.30, Genes [71% · 59% · 45% · 33%]
+  Genome[63], Fitness=72.36, Genes [48% · 76% · 56% · 8%]
+  Genome[64], Fitness=72.56, Genes [55% · 73% · 59% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=72.79, Genes [93% · 82% · 24% · 56%]
+  Genome[66], Fitness=72.83, Genes [46% · 34% · 59% · 37%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[67], Fitness=72.86, Genes [49% · 78% · 58% · 7%]
+  Genome[68], Fitness=72.90, Genes [47% · 55% · 52% · 41%]
+  Genome[69], Fitness=72.99, Genes [40% · 66% · 63% · 9%]
+  {
+    Record: Point Mutation at index 0: 0.2421 -> 0.2417
+  }
+  Genome[70], Fitness=73.53, Genes [65% · 12% · 42% · 86%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[71], Fitness=74.55, Genes [39% · 81% · 69% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[72], Fitness=75.23, Genes [40% · 55% · 61% · 51%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[73], Fitness=75.36, Genes [57% · 55% · 47% · 75%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[74], Fitness=75.59, Genes [60% · 29% · 79% · 15%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 4
+{
+  Bio-Diversity: 0.732
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.27, Genes [4% · 9% · 33% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.4737 -> 0.5013
+  }
+  Genome[2], Fitness=64.60, Genes [43% · 2% · 16% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[3], Fitness=64.61, Genes [38% · 3% · 9% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.6421 -> 0.6202
+  }
+  Genome[4], Fitness=64.65, Genes [42% · 3% · 11% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.8737 -> 0.858
+  }
+  Genome[5], Fitness=64.77, Genes [8% · 31% · 18% · 14%]
+  {
+    Record: Point Mutation at index 3: 0.4211 -> 0.4208
+  }
+  Genome[6], Fitness=64.84, Genes [44% · 9% · 20% · 1%]
+  Genome[7], Fitness=64.86, Genes [55% · 3% · 11% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.3579 -> 0.3597
+  }
+  Genome[8], Fitness=64.90, Genes [56% · 3% · 9% · 0%]
+  Genome[9], Fitness=64.90, Genes [55% · 3% · 9% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[10], Fitness=64.90, Genes [7% · 31% · 20% · 16%]
+  Genome[11], Fitness=65.02, Genes [47% · 0% · 28% · 0%]
+  Genome[12], Fitness=65.32, Genes [23% · 15% · 28% · 14%]
+  {
+    Record: Point Mutation at index 1: 0.2526 -> 0.2814
+    Record: Point Mutation at index 2: 0.4105 -> 0.444
+  }
+  Genome[13], Fitness=65.34, Genes [29% · 21% · 22% · 15%]
+  Genome[14], Fitness=65.36, Genes [31% · 31% · 18% · 14%]
+  Genome[15], Fitness=65.50, Genes [52% · 29% · 13% · 8%]
+  Genome[16], Fitness=65.53, Genes [0% · 35% · 38% · 4%]
+  Genome[17], Fitness=65.54, Genes [38% · 24% · 23% · 11%]
+  Genome[18], Fitness=65.59, Genes [48% · 25% · 15% · 14%]
+  Genome[19], Fitness=65.64, Genes [48% · 25% · 16% · 14%]
+  Genome[20], Fitness=65.70, Genes [1% · 34% · 24% · 29%]
+  Genome[21], Fitness=65.84, Genes [15% · 32% · 35% · 8%]
+  Genome[22], Fitness=65.87, Genes [13% · 31% · 39% · 3%]
+  Genome[23], Fitness=65.91, Genes [65% · 14% · 15% · 17%]
+  Genome[24], Fitness=65.92, Genes [14% · 35% · 24% · 25%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[25], Fitness=65.94, Genes [13% · 25% · 18% · 41%]
+  Genome[26], Fitness=66.12, Genes [48% · 32% · 18% · 18%]
+  Genome[27], Fitness=66.12, Genes [34% · 29% · 28% · 14%]
+  Genome[28], Fitness=66.18, Genes [55% · 67% · 6% · 2%]
+  Genome[29], Fitness=66.26, Genes [18% · 27% · 29% · 25%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=66.40, Genes [35% · 13% · 44% · 0%]
+  Genome[31], Fitness=66.47, Genes [19% · 53% · 34% · 4%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[32], Fitness=66.48, Genes [7% · 29% · 32% · 31%]
+  Genome[33], Fitness=66.54, Genes [32% · 33% · 31% · 17%]
+  Genome[34], Fitness=66.61, Genes [8% · 37% · 27% · 35%]
+  Genome[35], Fitness=66.63, Genes [15% · 36% · 35% · 19%]
+  Genome[36], Fitness=66.67, Genes [24% · 45% · 17% · 37%]
+  Genome[37], Fitness=66.70, Genes [36% · 13% · 46% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.3684 -> 0.3654
+  }
+  Genome[38], Fitness=66.70, Genes [43% · 38% · 17% · 31%]
+  Genome[39], Fitness=66.71, Genes [20% · 26% · 17% · 53%]
+  Genome[40], Fitness=66.72, Genes [66% · 13% · 28% · 15%]
+  {
+    Record: Point Mutation at index 1: 0.3789 -> 0.3784
+  }
+  Genome[41], Fitness=66.72, Genes [37% · 7% · 15% · 56%]
+  {
+    Record: Point Mutation at index 0: 0.3158 -> 0.3187
+    Record: Point Mutation at index 3: 0.1579 -> 0.1708
+  }
+  Genome[42], Fitness=66.87, Genes [28% · 28% · 33% · 23%]
+  Genome[43], Fitness=66.89, Genes [32% · 63% · 28% · 5%]
+  Genome[44], Fitness=67.02, Genes [47% · 6% · 22% · 45%]
+  {
+    Record: Point Mutation at index 2: 0.4632 -> 0.452
+  }
+  Genome[45], Fitness=67.12, Genes [22% · 29% · 33% · 31%]
+  {
+    Record: Point Mutation at index 1: 0.2842 -> 0.2825
+    Record: Point Mutation at index 2: 0.2526 -> 0.3009
+  }
+  Genome[46], Fitness=67.15, Genes [5% · 22% · 41% · 29%]
+  {
+    Record: Point Mutation at index 0: 0.5474 -> 0.549
+    Record: Point Mutation at index 3: 0.2211 -> 0.0239
+  }
+  Genome[47], Fitness=67.35, Genes [33% · 32% · 31% · 31%]
+  {
+    Record: Point Mutation at index 3: 0.1368 -> 0.1381
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[48], Fitness=67.44, Genes [57% · 66% · 13% · 22%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=67.63, Genes [31% · 74% · 9% · 42%]
+  Genome[50], Fitness=67.66, Genes [29% · 21% · 18% · 64%]
+  Genome[51], Fitness=67.74, Genes [5% · 29% · 40% · 36%]
+  Genome[52], Fitness=67.79, Genes [33% · 43% · 23% · 43%]
+  Genome[53], Fitness=67.93, Genes [28% · 44% · 28% · 38%]
+  Genome[54], Fitness=67.99, Genes [27% · 52% · 17% · 55%]
+  {
+    Record: Point Mutation at index 1: 0.3474 -> 0.3451
+  }
+  Genome[55], Fitness=68.06, Genes [14% · 31% · 32% · 52%]
+  Genome[56], Fitness=68.06, Genes [31% · 37% · 34% · 34%]
+  {
+    Record: Point Mutation at index 2: 0.1579 -> 0.1486
+  }
+  Genome[57], Fitness=68.18, Genes [35% · 59% · 35% · 16%]
+  Genome[58], Fitness=68.22, Genes [7% · 32% · 32% · 57%]
+  {
+    Record: Point Mutation at index 2: 0.3789 -> 0.3807
+  }
+  Genome[59], Fitness=68.30, Genes [16% · 33% · 32% · 53%]
+  Genome[60], Fitness=68.68, Genes [24% · 27% · 41% · 38%]
+  {
+    Record: Point Mutation at index 3: 0.1368 -> 0.141
+  }
+  Genome[61], Fitness=68.80, Genes [24% · 29% · 45% · 29%]
+  {
+    Record: Point Mutation at index 2: 0.2211 -> 0.2258
+  }
+  Genome[62], Fitness=69.00, Genes [17% · 27% · 44% · 40%]
+  Genome[63], Fitness=69.10, Genes [31% · 32% · 32% · 57%]
+  Genome[64], Fitness=69.49, Genes [64% · 42% · 15% · 66%]
+  {
+    Record: Point Mutation at index 1: 0.3158 -> 0.3137
+  }
+  Genome[65], Fitness=69.90, Genes [35% · 40% · 54% · 14%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[66], Fitness=70.92, Genes [56% · 47% · 22% · 75%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[67], Fitness=71.11, Genes [20% · 59% · 36% · 63%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[68], Fitness=71.76, Genes [74% · 62% · 34% · 46%]
+  Genome[69], Fitness=71.77, Genes [42% · 29% · 54% · 41%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[70], Fitness=71.77, Genes [85% · 73% · 22% · 56%]
+  Genome[71], Fitness=71.85, Genes [20% · 61% · 36% · 71%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0116
+  }
+  Genome[72], Fitness=71.97, Genes [92% · 71% · 22% · 57%]
+  {
+    Record: Point Mutation at index 2: 0.1263 -> 0.1651
+  }
+  Genome[73], Fitness=72.00, Genes [42% · 58% · 49% · 35%]
+  Genome[74], Fitness=72.44, Genes [41% · 63% · 59% · 15%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 5
+{
+  Bio-Diversity: 0.561
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.21, Genes [4% · 9% · 32% · 0%]
+  Genome[2], Fitness=64.22, Genes [18% · 0% · 28% · 0%]
+  Genome[3], Fitness=64.27, Genes [4% · 9% · 33% · 0%]
+  Genome[4], Fitness=64.60, Genes [37% · 3% · 9% · 0%]
+  Genome[5], Fitness=64.60, Genes [43% · 2% · 16% · 0%]
+  Genome[6], Fitness=64.62, Genes [38% · 4% · 9% · 0%]
+  Genome[7], Fitness=64.67, Genes [4% · 31% · 18% · 14%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[8], Fitness=64.73, Genes [45% · 0% · 23% · 0%]
+  Genome[9], Fitness=64.73, Genes [47% · 3% · 11% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.2947 -> 0.2969
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[10], Fitness=64.77, Genes [38% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.2526 -> 0.3932
+  }
+  Genome[11], Fitness=64.85, Genes [7% · 28% · 20% · 16%]
+  Genome[12], Fitness=64.87, Genes [55% · 2% · 9% · 0%]
+  Genome[13], Fitness=64.87, Genes [44% · 9% · 21% · 1%]
+  Genome[14], Fitness=64.90, Genes [55% · 4% · 11% · 1%]
+  Genome[15], Fitness=64.91, Genes [55% · 4% · 9% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[16], Fitness=64.94, Genes [4% · 20% · 28% · 15%]
+  {
+    Record: Point Mutation at index 0: 0.2421 -> 0.2369
+  }
+  Genome[17], Fitness=65.01, Genes [51% · 5% · 13% · 8%]
+  Genome[18], Fitness=65.03, Genes [41% · 12% · 20% · 7%]
+  Genome[19], Fitness=65.03, Genes [29% · 21% · 16% · 14%]
+  Genome[20], Fitness=65.07, Genes [51% · 16% · 11% · 5%]
+  {
+    Record: Point Mutation at index 0: 0.3368 -> 0.3347
+  }
+  Genome[21], Fitness=65.08, Genes [12% · 23% · 34% · 3%]
+  Genome[22], Fitness=65.19, Genes [63% · 8% · 9% · 4%]
+  Genome[23], Fitness=65.22, Genes [39% · 19% · 21% · 8%]
+  Genome[24], Fitness=65.26, Genes [47% · 23% · 18% · 4%]
+  Genome[25], Fitness=65.30, Genes [1% · 28% · 25% · 23%]
+  Genome[26], Fitness=65.42, Genes [34% · 23% · 22% · 13%]
+  Genome[27], Fitness=65.59, Genes [63% · 12% · 14% · 13%]
+  Genome[28], Fitness=65.64, Genes [12% · 26% · 18% · 35%]
+  Genome[29], Fitness=65.69, Genes [38% · 24% · 23% · 14%]
+  Genome[30], Fitness=65.70, Genes [36% · 25% · 25% · 12%]
+  Genome[31], Fitness=65.71, Genes [18% · 23% · 29% · 18%]
+  Genome[32], Fitness=65.71, Genes [28% · 25% · 24% · 18%]
+  Genome[33], Fitness=65.72, Genes [15% · 23% · 29% · 20%]
+  Genome[34], Fitness=65.76, Genes [15% · 36% · 35% · 4%]
+  Genome[35], Fitness=65.79, Genes [36% · 11% · 39% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1263 -> 0.1281
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[36], Fitness=65.86, Genes [31% · 29% · 18% · 25%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[37], Fitness=65.88, Genes [12% · 37% · 20% · 31%]
+  Genome[38], Fitness=65.96, Genes [34% · 27% · 27% · 14%]
+  {
+    Record: Point Mutation at index 1: 0.3053 -> 0.2973
+  }
+  Genome[39], Fitness=65.99, Genes [13% · 25% · 18% · 42%]
+  Genome[40], Fitness=66.05, Genes [29% · 29% · 31% · 12%]
+  Genome[41], Fitness=66.05, Genes [34% · 27% · 28% · 14%]
+  Genome[42], Fitness=66.06, Genes [7% · 29% · 32% · 23%]
+  Genome[43], Fitness=66.06, Genes [23% · 27% · 31% · 17%]
+  {
+    Record: Point Mutation at index 2: 0.3053 -> 0.3032
+  }
+  Genome[44], Fitness=66.08, Genes [16% · 39% · 37% · 3%]
+  Genome[45], Fitness=66.12, Genes [44% · 26% · 23% · 17%]
+  {
+    Record: Point Mutation at index 2: 0.2316 -> 0.2316
+  }
+  Genome[46], Fitness=66.12, Genes [66% · 13% · 18% · 18%]
+  Genome[47], Fitness=66.16, Genes [22% · 29% · 39% · 3%]
+  Genome[48], Fitness=66.18, Genes [34% · 29% · 28% · 15%]
+  Genome[49], Fitness=66.20, Genes [28% · 28% · 35% · 8%]
+  {
+    Record: Point Mutation at index 0: 0.0105 -> 0.0122
+  }
+  Genome[50], Fitness=66.29, Genes [31% · 31% · 18% · 34%]
+  Genome[51], Fitness=66.37, Genes [31% · 16% · 44% · 0%]
+  Genome[52], Fitness=66.42, Genes [65% · 13% · 25% · 15%]
+  {
+    Record: Point Mutation at index 2: 0.1053 -> 0.1014
+  }
+  Genome[53], Fitness=66.50, Genes [29% · 25% · 42% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.2316 -> 0.2321
+  }
+  Genome[54], Fitness=66.64, Genes [33% · 58% · 25% · 9%]
+  {
+    Record: Point Mutation at index 0: 0.5053 -> 0.508
+  }
+  Genome[55], Fitness=66.81, Genes [29% · 36% · 28% · 24%]
+  Genome[56], Fitness=66.85, Genes [37% · 38% · 25% · 24%]
+  {
+    Record: Point Mutation at index 2: 0.2105 -> 0.2092
+  }
+  Genome[57], Fitness=67.13, Genes [6% · 28% · 35% · 37%]
+  Genome[58], Fitness=67.19, Genes [23% · 47% · 32% · 21%]
+  {
+    Record: Point Mutation at index 0: 0.0421 -> 0.0439
+  }
+  Genome[59], Fitness=67.22, Genes [5% · 22% · 41% · 31%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[60], Fitness=67.27, Genes [46% · 55% · 21% · 21%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[61], Fitness=67.39, Genes [14% · 44% · 28% · 38%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[62], Fitness=67.56, Genes [26% · 45% · 29% · 31%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[63], Fitness=67.62, Genes [19% · 31% · 35% · 36%]
+  {
+    Record: Point Mutation at index 1: 0.2947 -> 0.2905
+  }
+  Genome[64], Fitness=67.72, Genes [28% · 32% · 31% · 39%]
+  Genome[65], Fitness=67.73, Genes [29% · 21% · 18% · 65%]
+  Genome[66], Fitness=67.75, Genes [31% · 43% · 25% · 40%]
+  Genome[67], Fitness=67.75, Genes [33% · 42% · 23% · 43%]
+  Genome[68], Fitness=67.81, Genes [27% · 45% · 17% · 56%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[69], Fitness=68.32, Genes [25% · 32% · 40% · 32%]
+  {
+    Record: Point Mutation at index 2: 0.1263 -> 0.1651
+    Record: Genome carried over from previous generation.
+  }
+  Genome[70], Fitness=68.35, Genes [55% · 54% · 18% · 41%]
+  {
+    Record: Point Mutation at index 0: 0.3789 -> 0.3772
+  }
+  Genome[71], Fitness=68.43, Genes [20% · 27% · 39% · 41%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[72], Fitness=68.45, Genes [20% · 33% · 32% · 53%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0058
+  }
+  Genome[73], Fitness=68.67, Genes [24% · 28% · 44% · 31%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[74], Fitness=69.33, Genes [45% · 40% · 28% · 53%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 6
+{
+  Bio-Diversity: 0.437
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[1], Fitness=64.11, Genes [13% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.4 -> 0.3961
+  }
+  Genome[2], Fitness=64.19, Genes [17% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.2737 -> 0.2691
+  }
+  Genome[3], Fitness=64.21, Genes [4% · 9% · 32% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.3579 -> 0.3544
+  }
+  Genome[4], Fitness=64.22, Genes [18% · 0% · 28% · 0%]
+  Genome[5], Fitness=64.25, Genes [24% · 0% · 24% · 0%]
+  Genome[6], Fitness=64.27, Genes [15% · 2% · 31% · 0%]
+  Genome[7], Fitness=64.37, Genes [25% · 3% · 21% · 3%]
+  Genome[8], Fitness=64.38, Genes [3% · 16% · 28% · 5%]
+  Genome[9], Fitness=64.52, Genes [29% · 0% · 28% · 0%]
+  Genome[10], Fitness=64.57, Genes [37% · 1% · 24% · 0%]
+  Genome[11], Fitness=64.60, Genes [39% · 0% · 24% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.2316 -> 0.2296
+  }
+  Genome[12], Fitness=64.64, Genes [45% · 1% · 18% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.1789 -> 0.1751
+  }
+  Genome[13], Fitness=64.65, Genes [44% · 0% · 21% · 0%]
+  Genome[14], Fitness=64.70, Genes [8% · 18% · 33% · 2%]
+  Genome[15], Fitness=64.72, Genes [45% · 2% · 9% · 0%]
+  Genome[16], Fitness=64.72, Genes [46% · 1% · 9% · 0%]
+  Genome[17], Fitness=64.78, Genes [39% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.2947 -> 0.2843
+  }
+  Genome[18], Fitness=64.79, Genes [5% · 28% · 20% · 16%]
+  Genome[19], Fitness=64.81, Genes [21% · 12% · 33% · 0%]
+  Genome[20], Fitness=64.84, Genes [44% · 9% · 21% · 0%]
+  Genome[21], Fitness=64.85, Genes [45% · 8% · 15% · 4%]
+  Genome[22], Fitness=64.86, Genes [45% · 9% · 21% · 0%]
+  Genome[23], Fitness=64.88, Genes [55% · 4% · 16% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.2316 -> 0.2286
+  }
+  Genome[24], Fitness=64.88, Genes [38% · 3% · 29% · 0%]
+  Genome[25], Fitness=64.89, Genes [44% · 18% · 15% · 1%]
+  Genome[26], Fitness=64.90, Genes [49% · 4% · 15% · 5%]
+  Genome[27], Fitness=64.91, Genes [4% · 19% · 28% · 15%]
+  Genome[28], Fitness=64.93, Genes [47% · 13% · 9% · 4%]
+  Genome[29], Fitness=64.98, Genes [49% · 6% · 14% · 7%]
+  Genome[30], Fitness=64.99, Genes [44% · 26% · 9% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[31], Fitness=64.99, Genes [44% · 26% · 11% · 1%]
+  Genome[32], Fitness=65.00, Genes [11% · 25% · 22% · 17%]
+  Genome[33], Fitness=65.00, Genes [51% · 4% · 13% · 8%]
+  Genome[34], Fitness=65.05, Genes [15% · 28% · 20% · 16%]
+  Genome[35], Fitness=65.08, Genes [61% · 5% · 9% · 3%]
+  Genome[36], Fitness=65.09, Genes [60% · 7% · 9% · 3%]
+  Genome[37], Fitness=65.09, Genes [48% · 19% · 16% · 3%]
+  Genome[38], Fitness=65.10, Genes [47% · 3% · 11% · 15%]
+  Genome[39], Fitness=65.15, Genes [43% · 23% · 18% · 4%]
+  {
+    Record: Point Mutation at index 1: 0.0632 -> 0.0613
+  }
+  Genome[40], Fitness=65.18, Genes [13% · 25% · 34% · 3%]
+  Genome[41], Fitness=65.23, Genes [59% · 11% · 15% · 5%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[42], Fitness=65.28, Genes [24% · 16% · 36% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.2632 -> 0.2555
+  }
+  Genome[43], Fitness=65.31, Genes [22% · 22% · 23% · 17%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[44], Fitness=65.33, Genes [2% · 28% · 25% · 23%]
+  Genome[45], Fitness=65.35, Genes [15% · 24% · 26% · 17%]
+  Genome[46], Fitness=65.38, Genes [32% · 8% · 37% · 0%]
+  Genome[47], Fitness=65.40, Genes [38% · 23% · 22% · 9%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[48], Fitness=65.42, Genes [4% · 26% · 18% · 35%]
+  {
+    Record: Point Mutation at index 2: 0.1158 -> 0.1539
+  }
+  Genome[49], Fitness=65.45, Genes [29% · 29% · 31% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0211 -> 0.0154
+    Record: Point Mutation at index 0: 0.4737 -> 0.4482
+  }
+  Genome[50], Fitness=65.49, Genes [38% · 24% · 23% · 9%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0
+  }
+  Genome[51], Fitness=65.51, Genes [19% · 22% · 31% · 13%]
+  Genome[52], Fitness=65.54, Genes [31% · 23% · 23% · 16%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=65.60, Genes [26% · 22% · 33% · 6%]
+  Genome[54], Fitness=65.62, Genes [6% · 29% · 28% · 21%]
+  {
+    Record: Point Mutation at index 0: 0.4421 -> 0.4452
+  }
+  Genome[55], Fitness=65.77, Genes [32% · 27% · 21% · 20%]
+  Genome[56], Fitness=65.81, Genes [20% · 29% · 37% · 2%]
+  {
+    Record: Point Mutation at index 0: 0.0632 -> 0.062
+  }
+  Genome[57], Fitness=65.90, Genes [22% · 28% · 37% · 3%]
+  Genome[58], Fitness=65.92, Genes [20% · 28% · 28% · 19%]
+  {
+    Record: Point Mutation at index 1: 0.0211 -> 0.02
+  }
+  Genome[59], Fitness=65.95, Genes [31% · 28% · 29% · 12%]
+  Genome[60], Fitness=66.00, Genes [34% · 28% · 27% · 14%]
+  Genome[61], Fitness=66.05, Genes [29% · 27% · 33% · 9%]
+  Genome[62], Fitness=66.11, Genes [26% · 29% · 17% · 35%]
+  Genome[63], Fitness=66.11, Genes [28% · 28% · 25% · 22%]
+  Genome[64], Fitness=66.23, Genes [26% · 27% · 40% · 1%]
+  Genome[65], Fitness=66.38, Genes [23% · 38% · 25% · 24%]
+  Genome[66], Fitness=66.62, Genes [15% · 40% · 29% · 25%]
+  Genome[67], Fitness=66.63, Genes [23% · 47% · 20% · 31%]
+  Genome[68], Fitness=66.66, Genes [42% · 46% · 22% · 17%]
+  Genome[69], Fitness=66.75, Genes [11% · 28% · 31% · 36%]
+  Genome[70], Fitness=66.93, Genes [22% · 29% · 39% · 16%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0058
+    Record: Genome carried over from previous generation.
+  }
+  Genome[71], Fitness=67.01, Genes [40% · 41% · 18% · 35%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome carried over from previous generation.
+  }
+  Genome[72], Fitness=67.20, Genes [20% · 26% · 39% · 23%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2897
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[73], Fitness=67.27, Genes [31% · 39% · 25% · 35%]
+  {
+    Record: Point Mutation at index 0: 0.1474 -> 0.1439
+    Record: Point Mutation at index 0: 0.1368 -> 0.1286
+  }
+  Genome[74], Fitness=67.31, Genes [23% · 47% · 33% · 21%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 7
+{
+  Bio-Diversity: 0.392
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.08, Genes [12% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.3895 -> 0.3895
+  }
+  Genome[2], Fitness=64.11, Genes [13% · 1% · 28% · 0%]
+  Genome[3], Fitness=64.12, Genes [12% · 1% · 29% · 0%]
+  Genome[4], Fitness=64.16, Genes [17% · 0% · 27% · 0%]
+  Genome[5], Fitness=64.16, Genes [15% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.1053 -> 0.1088
+  }
+  Genome[6], Fitness=64.18, Genes [19% · 0% · 26% · 0%]
+  Genome[7], Fitness=64.19, Genes [17% · 0% · 28% · 0%]
+  Genome[8], Fitness=64.19, Genes [6% · 7% · 28% · 3%]
+  Genome[9], Fitness=64.21, Genes [17% · 1% · 28% · 0%]
+  Genome[10], Fitness=64.23, Genes [17% · 0% · 28% · 1%]
+  Genome[11], Fitness=64.24, Genes [19% · 0% · 28% · 0%]
+  Genome[12], Fitness=64.26, Genes [18% · 0% · 28% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.2316 -> 0.2329
+  }
+  Genome[13], Fitness=64.34, Genes [24% · 0% · 27% · 0%]
+  Genome[14], Fitness=64.35, Genes [24% · 3% · 21% · 3%]
+  Genome[15], Fitness=64.40, Genes [4% · 14% · 28% · 6%]
+  {
+    Record: Point Mutation at index 1: 0.2842 -> 0.2834
+  }
+  Genome[16], Fitness=64.44, Genes [32% · 1% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[17], Fitness=64.50, Genes [7% · 16% · 32% · 1%]
+  Genome[18], Fitness=64.52, Genes [38% · 0% · 22% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[19], Fitness=64.55, Genes [39% · 1% · 21% · 0%]
+  Genome[20], Fitness=64.58, Genes [38% · 0% · 24% · 0%]
+  Genome[21], Fitness=64.59, Genes [34% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[22], Fitness=64.63, Genes [40% · 0% · 24% · 0%]
+  Genome[23], Fitness=64.65, Genes [40% · 7% · 19% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[24], Fitness=64.65, Genes [33% · 2% · 28% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.1053 -> 0.1196
+  }
+  Genome[25], Fitness=64.68, Genes [29% · 2% · 31% · 0%]
+  Genome[26], Fitness=64.68, Genes [7% · 19% · 25% · 12%]
+  {
+    Record: Point Mutation at index 0: 0.4421 -> 0.4411
+  }
+  Genome[27], Fitness=64.68, Genes [45% · 5% · 14% · 0%]
+  Genome[28], Fitness=64.70, Genes [32% · 3% · 29% · 0%]
+  Genome[29], Fitness=64.73, Genes [12% · 22% · 21% · 13%]
+  Genome[30], Fitness=64.74, Genes [45% · 3% · 15% · 3%]
+  Genome[31], Fitness=64.74, Genes [44% · 0% · 24% · 0%]
+  Genome[32], Fitness=64.75, Genes [24% · 16% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.1579 -> 0.1354
+  }
+  Genome[33], Fitness=64.76, Genes [47% · 3% · 9% · 0%]
+  Genome[34], Fitness=64.77, Genes [44% · 0% · 8% · 3%]
+  Genome[35], Fitness=64.77, Genes [37% · 2% · 28% · 0%]
+  Genome[36], Fitness=64.77, Genes [19% · 13% · 33% · 0%]
+  Genome[37], Fitness=64.78, Genes [45% · 6% · 14% · 3%]
+  Genome[38], Fitness=64.78, Genes [26% · 7% · 32% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.3368 -> 0.3359
+  }
+  Genome[39], Fitness=64.80, Genes [8% · 23% · 23% · 14%]
+  Genome[40], Fitness=64.81, Genes [41% · 3% · 26% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.0947 -> 0.0938
+  }
+  Genome[41], Fitness=64.83, Genes [45% · 8% · 18% · 2%]
+  Genome[42], Fitness=64.83, Genes [22% · 13% · 28% · 5%]
+  Genome[43], Fitness=64.84, Genes [46% · 9% · 12% · 3%]
+  Genome[44], Fitness=64.88, Genes [12% · 25% · 26% · 8%]
+  {
+    Record: Point Mutation at index 0: 0.4632 -> 0.4573
+    Record: Point Mutation at index 3: 0.0421 -> 0.0419
+  }
+  Genome[45], Fitness=64.89, Genes [38% · 23% · 9% · 4%]
+  Genome[46], Fitness=64.89, Genes [47% · 3% · 24% · 0%]
+  Genome[47], Fitness=64.90, Genes [48% · 11% · 11% · 3%]
+  Genome[48], Fitness=64.90, Genes [43% · 22% · 11% · 1%]
+  Genome[49], Fitness=64.91, Genes [18% · 17% · 33% · 1%]
+  Genome[50], Fitness=64.93, Genes [45% · 21% · 12% · 1%]
+  Genome[51], Fitness=64.96, Genes [48% · 6% · 14% · 7%]
+  {
+    Record: Point Mutation at index 0: 0.4105 -> 0.4074
+  }
+  Genome[52], Fitness=65.00, Genes [54% · 6% · 11% · 5%]
+  Genome[53], Fitness=65.01, Genes [51% · 6% · 14% · 7%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2831
+  }
+  Genome[54], Fitness=65.01, Genes [48% · 16% · 15% · 3%]
+  {
+    Record: Point Mutation at index 2: 0.2421 -> 0.2422
+  }
+  Genome[55], Fitness=65.09, Genes [34% · 26% · 18% · 7%]
+  {
+    Record: Point Mutation at index 0: 0.3895 -> 0.3926
+  }
+  Genome[56], Fitness=65.10, Genes [47% · 3% · 12% · 15%]
+  Genome[57], Fitness=65.11, Genes [51% · 0% · 28% · 0%]
+  Genome[58], Fitness=65.28, Genes [15% · 24% · 25% · 17%]
+  Genome[59], Fitness=65.28, Genes [3% · 27% · 25% · 22%]
+  Genome[60], Fitness=65.36, Genes [31% · 23% · 20% · 16%]
+  Genome[61], Fitness=65.37, Genes [6% · 24% · 21% · 29%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2831
+  }
+  Genome[62], Fitness=65.37, Genes [17% · 23% · 28% · 14%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[63], Fitness=65.43, Genes [23% · 22% · 31% · 8%]
+  Genome[64], Fitness=65.43, Genes [27% · 22% · 24% · 15%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=65.50, Genes [20% · 25% · 36% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[66], Fitness=65.56, Genes [29% · 27% · 33% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2855
+  }
+  Genome[67], Fitness=65.63, Genes [21% · 26% · 27% · 16%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2897
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome carried over from previous generation.
+  }
+  Genome[68], Fitness=65.72, Genes [11% · 28% · 28% · 21%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0017
+  }
+  Genome[69], Fitness=65.78, Genes [26% · 26% · 31% · 11%]
+  Genome[70], Fitness=66.14, Genes [14% · 37% · 27% · 23%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0044
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[71], Fitness=66.19, Genes [15% · 41% · 18% · 35%]
+  Genome[72], Fitness=66.21, Genes [27% · 26% · 32% · 16%]
+  {
+    Record: Point Mutation at index 0: 0.1474 -> 0.1439
+    Record: Point Mutation at index 0: 0.1368 -> 0.1286
+    Record: Genome carried over from previous generation.
+  }
+  Genome[73], Fitness=66.48, Genes [34% · 39% · 23% · 22%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[74], Fitness=66.54, Genes [24% · 28% · 36% · 15%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 8
+{
+  Bio-Diversity: 0.332
+  Genome[0], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[1], Fitness=64.06, Genes [12% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2737 -> 0.2751
+    Record: Point Mutation at index 1: 0.2316 -> 0.3385
+  }
+  Genome[2], Fitness=64.08, Genes [7% · 4% · 28% · 1%]
+  Genome[3], Fitness=64.08, Genes [12% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.286
+  }
+  Genome[4], Fitness=64.11, Genes [13% · 1% · 28% · 0%]
+  Genome[5], Fitness=64.13, Genes [17% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0421 -> 0.1781
+  }
+  Genome[6], Fitness=64.14, Genes [9% · 6% · 28% · 0%]
+  Genome[7], Fitness=64.14, Genes [15% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0842 -> 0.0817
+  }
+  Genome[8], Fitness=64.15, Genes [18% · 0% · 26% · 0%]
+  Genome[9], Fitness=64.17, Genes [16% · 0% · 28% · 0%]
+  Genome[10], Fitness=64.18, Genes [17% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[11], Fitness=64.18, Genes [15% · 0% · 29% · 0%]
+  Genome[12], Fitness=64.20, Genes [15% · 1% · 28% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0737 -> 0.0731
+  }
+  Genome[13], Fitness=64.20, Genes [16% · 0% · 28% · 1%]
+  Genome[14], Fitness=64.20, Genes [4% · 14% · 29% · 0%]
+  Genome[15], Fitness=64.21, Genes [19% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0028
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[16], Fitness=64.21, Genes [17% · 1% · 27% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0947 -> 0.0905
+  }
+  Genome[17], Fitness=64.22, Genes [24% · 0% · 22% · 0%]
+  Genome[18], Fitness=64.22, Genes [9% · 11% · 26% · 2%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.043
+  }
+  Genome[19], Fitness=64.23, Genes [17% · 2% · 28% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.4316 -> 0.4341
+  }
+  Genome[20], Fitness=64.24, Genes [19% · 0% · 27% · 1%]
+  Genome[21], Fitness=64.26, Genes [18% · 0% · 29% · 0%]
+  Genome[22], Fitness=64.26, Genes [21% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.4526 -> 0.4496
+  }
+  Genome[23], Fitness=64.27, Genes [19% · 1% · 28% · 0%]
+  Genome[24], Fitness=64.28, Genes [13% · 7% · 29% · 0%]
+  Genome[25], Fitness=64.30, Genes [18% · 0% · 29% · 1%]
+  Genome[26], Fitness=64.30, Genes [6% · 11% · 28% · 4%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0006
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[27], Fitness=64.33, Genes [13% · 6% · 28% · 3%]
+  Genome[28], Fitness=64.34, Genes [19% · 0% · 31% · 0%]
+  Genome[29], Fitness=64.34, Genes [6% · 14% · 29% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=64.35, Genes [28% · 0% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[31], Fitness=64.35, Genes [23% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0211 -> 0.0749
+  }
+  Genome[32], Fitness=64.37, Genes [23% · 1% · 28% · 0%]
+  Genome[33], Fitness=64.39, Genes [25% · 4% · 21% · 3%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[34], Fitness=64.40, Genes [23% · 2% · 28% · 0%]
+  Genome[35], Fitness=64.40, Genes [24% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0173
+  }
+  Genome[36], Fitness=64.41, Genes [18% · 0% · 28% · 5%]
+  Genome[37], Fitness=64.44, Genes [19% · 0% · 28% · 5%]
+  Genome[38], Fitness=64.50, Genes [36% · 0% · 23% · 0%]
+  Genome[39], Fitness=64.51, Genes [26% · 1% · 29% · 0%]
+  Genome[40], Fitness=64.52, Genes [31% · 1% · 27% · 0%]
+  Genome[41], Fitness=64.53, Genes [39% · 0% · 21% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[42], Fitness=64.54, Genes [28% · 2% · 28% · 0%]
+  Genome[43], Fitness=64.54, Genes [22% · 7% · 29% · 0%]
+  Genome[44], Fitness=64.55, Genes [38% · 0% · 23% · 0%]
+  Genome[45], Fitness=64.55, Genes [37% · 0% · 24% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.0632 -> 0.0649
+  }
+  Genome[46], Fitness=64.55, Genes [24% · 3% · 31% · 0%]
+  Genome[47], Fitness=64.56, Genes [20% · 11% · 29% · 0%]
+  Genome[48], Fitness=64.60, Genes [40% · 0% · 23% · 0%]
+  Genome[49], Fitness=64.61, Genes [18% · 13% · 31% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[50], Fitness=64.61, Genes [22% · 13% · 28% · 0%]
+  Genome[51], Fitness=64.65, Genes [22% · 9% · 27% · 4%]
+  Genome[52], Fitness=64.66, Genes [44% · 5% · 14% · 0%]
+  Genome[53], Fitness=64.69, Genes [42% · 0% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[54], Fitness=64.69, Genes [37% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[55], Fitness=64.71, Genes [43% · 6% · 18% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[56], Fitness=64.73, Genes [38% · 0% · 24% · 4%]
+  Genome[57], Fitness=64.73, Genes [44% · 6% · 15% · 2%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0615
+  }
+  Genome[58], Fitness=64.75, Genes [46% · 8% · 12% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0128
+  }
+  Genome[59], Fitness=64.76, Genes [32% · 3% · 31% · 0%]
+  Genome[60], Fitness=64.77, Genes [45% · 8% · 18% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.1368 -> 0.1402
+  }
+  Genome[61], Fitness=64.77, Genes [23% · 11% · 32% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[62], Fitness=64.78, Genes [40% · 6% · 14% · 7%]
+  Genome[63], Fitness=64.80, Genes [46% · 4% · 9% · 3%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[64], Fitness=64.81, Genes [26% · 8% · 32% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=64.87, Genes [34% · 26% · 18% · 1%]
+  Genome[66], Fitness=65.03, Genes [23% · 23% · 23% · 9%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0009
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[67], Fitness=65.12, Genes [20% · 22% · 28% · 7%]
+  Genome[68], Fitness=65.17, Genes [19% · 13% · 33% · 8%]
+  Genome[69], Fitness=65.26, Genes [19% · 12% · 28% · 17%]
+  Genome[70], Fitness=65.36, Genes [24% · 22% · 28% · 9%]
+  {
+    Record: Point Mutation at index 0: 0.1474 -> 0.1439
+    Record: Point Mutation at index 0: 0.1368 -> 0.1286
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[71], Fitness=65.51, Genes [9% · 26% · 28% · 19%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome carried over from previous generation.
+  }
+  Genome[72], Fitness=65.51, Genes [4% · 14% · 28% · 29%]
+  Genome[73], Fitness=65.56, Genes [15% · 34% · 27% · 14%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[74], Fitness=65.84, Genes [28% · 26% · 28% · 14%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 9
+{
+  Bio-Diversity: 0.226
+  Genome[0], Fitness=63.76, Genes [0% · 0% · 26% · 0%]
+  Genome[1], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[2], Fitness=63.89, Genes [4% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[3], Fitness=64.04, Genes [11% · 0% · 28% · 0%]
+  Genome[4], Fitness=64.06, Genes [13% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.1368 -> 0.1181
+  }
+  Genome[5], Fitness=64.06, Genes [12% · 0% · 28% · 0%]
+  Genome[6], Fitness=64.08, Genes [11% · 2% · 28% · 0%]
+  Genome[7], Fitness=64.08, Genes [7% · 4% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[8], Fitness=64.08, Genes [15% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[9], Fitness=64.10, Genes [12% · 0% · 28% · 1%]
+  Genome[10], Fitness=64.10, Genes [7% · 5% · 28% · 1%]
+  Genome[11], Fitness=64.11, Genes [16% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.3053 -> 0.3026
+  }
+  Genome[12], Fitness=64.11, Genes [15% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.2842 -> 0.2846
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[13], Fitness=64.11, Genes [14% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0842 -> 0.1898
+  }
+  Genome[14], Fitness=64.12, Genes [14% · 0% · 27% · 1%]
+  Genome[15], Fitness=64.13, Genes [13% · 0% · 29% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.2211 -> 0.1751
+  }
+  Genome[16], Fitness=64.13, Genes [16% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.1895 -> 0.1892
+  }
+  Genome[17], Fitness=64.13, Genes [14% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0421 -> 0.0426
+  }
+  Genome[18], Fitness=64.15, Genes [17% · 1% · 26% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.2105 -> 0.2135
+  }
+  Genome[19], Fitness=64.15, Genes [14% · 0% · 28% · 1%]
+  Genome[20], Fitness=64.15, Genes [16% · 1% · 27% · 0%]
+  Genome[21], Fitness=64.16, Genes [20% · 0% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[22], Fitness=64.16, Genes [17% · 0% · 26% · 1%]
+  Genome[23], Fitness=64.17, Genes [16% · 0% · 27% · 1%]
+  Genome[24], Fitness=64.17, Genes [14% · 1% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[25], Fitness=64.17, Genes [11% · 8% · 26% · 1%]
+  Genome[26], Fitness=64.17, Genes [18% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[27], Fitness=64.18, Genes [3% · 14% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[28], Fitness=64.18, Genes [18% · 0% · 27% · 0%]
+  Genome[29], Fitness=64.19, Genes [16% · 1% · 28% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0029
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=64.19, Genes [12% · 6% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[31], Fitness=64.19, Genes [17% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[32], Fitness=64.20, Genes [18% · 1% · 27% · 0%]
+  Genome[33], Fitness=64.21, Genes [16% · 0% · 29% · 0%]
+  Genome[34], Fitness=64.22, Genes [15% · 2% · 28% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> 0.1688
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[35], Fitness=64.22, Genes [18% · 0% · 26% · 2%]
+  Genome[36], Fitness=64.23, Genes [16% · 1% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[37], Fitness=64.23, Genes [17% · 0% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[38], Fitness=64.24, Genes [24% · 1% · 22% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[39], Fitness=64.24, Genes [18% · 1% · 28% · 0%]
+  Genome[40], Fitness=64.24, Genes [16% · 0% · 28% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[41], Fitness=64.24, Genes [12% · 5% · 28% · 2%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0006
+    Record: Point Mutation at index 2: 0.2632 -> 0.301
+  }
+  Genome[42], Fitness=64.24, Genes [11% · 8% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[43], Fitness=64.25, Genes [16% · 0% · 31% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0005
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[44], Fitness=64.25, Genes [4% · 14% · 31% · 0%]
+  Genome[45], Fitness=64.27, Genes [20% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[46], Fitness=64.28, Genes [24% · 0% · 25% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0022
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[47], Fitness=64.28, Genes [17% · 0% · 31% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.0421 -> 0.0395
+  }
+  Genome[48], Fitness=64.28, Genes [18% · 1% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=64.29, Genes [22% · 0% · 27% · 0%]
+  Genome[50], Fitness=64.29, Genes [20% · 1% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[51], Fitness=64.29, Genes [13% · 6% · 28% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[52], Fitness=64.30, Genes [21% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=64.30, Genes [16% · 0% · 32% · 0%]
+  Genome[54], Fitness=64.32, Genes [19% · 0% · 27% · 3%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[55], Fitness=64.36, Genes [19% · 0% · 27% · 4%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[56], Fitness=64.41, Genes [21% · 5% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[57], Fitness=64.44, Genes [26% · 4% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[58], Fitness=64.46, Genes [34% · 5% · 18% · 0%]
+  Genome[59], Fitness=64.47, Genes [17% · 13% · 28% · 0%]
+  Genome[60], Fitness=64.47, Genes [23% · 5% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[61], Fitness=64.48, Genes [7% · 19% · 28% · 3%]
+  {
+    Record: Point Mutation at index 0: 0.1474 -> 0.1455
+  }
+  Genome[62], Fitness=64.49, Genes [28% · 2% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1579 -> 0.1619
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[63], Fitness=64.50, Genes [24% · 3% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[64], Fitness=64.50, Genes [31% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=64.56, Genes [34% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[66], Fitness=64.58, Genes [22% · 7% · 29% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.1579 -> 0.1557
+  }
+  Genome[67], Fitness=64.61, Genes [24% · 3% · 32% · 0%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[68], Fitness=64.62, Genes [29% · 2% · 29% · 0%]
+  Genome[69], Fitness=64.64, Genes [42% · 4% · 19% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome carried over from previous generation.
+  }
+  Genome[70], Fitness=64.66, Genes [42% · 6% · 12% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0004
+  }
+  Genome[71], Fitness=64.72, Genes [23% · 8% · 32% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[72], Fitness=64.79, Genes [46% · 4% · 11% · 3%]
+  Genome[73], Fitness=64.81, Genes [43% · 6% · 23% · 0%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[74], Fitness=64.86, Genes [38% · 0% · 31% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> -0.1926
+  }
+}
+
+Generation 10
+{
+  Bio-Diversity: 0.171
+  Genome[0], Fitness=63.76, Genes [0% · 0% · 26% · 0%]
+  Genome[1], Fitness=63.78, Genes [1% · 0% · 26% · 0%]
+  Genome[2], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  Genome[3], Fitness=63.83, Genes [0% · 0% · 27% · 2%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0004
+  }
+  Genome[4], Fitness=63.87, Genes [3% · 0% · 28% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.2632 -> 0.2671
+  }
+  Genome[5], Fitness=63.89, Genes [4% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[6], Fitness=63.93, Genes [4% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[7], Fitness=63.96, Genes [11% · 0% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[8], Fitness=63.96, Genes [8% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0038
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[9], Fitness=64.01, Genes [8% · 1% · 28% · 0%]
+  Genome[10], Fitness=64.01, Genes [12% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> 0.1681
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[11], Fitness=64.03, Genes [13% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[12], Fitness=64.03, Genes [12% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[13], Fitness=64.05, Genes [8% · 6% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[14], Fitness=64.06, Genes [14% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[15], Fitness=64.07, Genes [13% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[16], Fitness=64.07, Genes [12% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[17], Fitness=64.08, Genes [8% · 6% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[18], Fitness=64.08, Genes [16% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[19], Fitness=64.08, Genes [14% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2827
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[20], Fitness=64.09, Genes [13% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[21], Fitness=64.09, Genes [14% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[22], Fitness=64.09, Genes [13% · 0% · 27% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.1368 -> 0.1336
+  }
+  Genome[23], Fitness=64.10, Genes [15% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[24], Fitness=64.11, Genes [17% · 0% · 25% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2947 -> 0.2958
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[25], Fitness=64.11, Genes [18% · 0% · 24% · 0%]
+  Genome[26], Fitness=64.11, Genes [15% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[27], Fitness=64.12, Genes [5% · 11% · 28% · 0%]
+  Genome[28], Fitness=64.12, Genes [12% · 1% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[29], Fitness=64.12, Genes [13% · 0% · 28% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0033
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=64.13, Genes [13% · 2% · 28% · 0%]
+  Genome[31], Fitness=64.14, Genes [11% · 3% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[32], Fitness=64.14, Genes [17% · 0% · 25% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0011
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[33], Fitness=64.14, Genes [16% · 0% · 26% · 1%]
+  Genome[34], Fitness=64.14, Genes [15% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[35], Fitness=64.15, Genes [13% · 1% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[36], Fitness=64.15, Genes [13% · 1% · 29% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0039
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[37], Fitness=64.15, Genes [14% · 0% · 27% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[38], Fitness=64.16, Genes [13% · 0% · 28% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[39], Fitness=64.16, Genes [15% · 1% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[40], Fitness=64.16, Genes [13% · 0% · 29% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[41], Fitness=64.18, Genes [15% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[42], Fitness=64.18, Genes [15% · 2% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[43], Fitness=64.19, Genes [16% · 1% · 27% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0421 -> 0.0374
+  }
+  Genome[44], Fitness=64.19, Genes [18% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[45], Fitness=64.19, Genes [18% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[46], Fitness=64.20, Genes [15% · 1% · 27% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[47], Fitness=64.20, Genes [17% · 0% · 26% · 2%]
+  Genome[48], Fitness=64.21, Genes [15% · 0% · 28% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=64.22, Genes [7% · 11% · 29% · 0%]
+  Genome[50], Fitness=64.22, Genes [15% · 0% · 29% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[51], Fitness=64.22, Genes [18% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[52], Fitness=64.22, Genes [13% · 8% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=64.22, Genes [15% · 0% · 31% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2632 -> 0.267
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[54], Fitness=64.23, Genes [19% · 1% · 27% · 0%]
+  Genome[55], Fitness=64.24, Genes [18% · 1% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[56], Fitness=64.24, Genes [18% · 1% · 26% · 2%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0082
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[57], Fitness=64.24, Genes [16% · 0% · 29% · 1%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.003
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[58], Fitness=64.25, Genes [18% · 0% · 27% · 2%]
+  Genome[59], Fitness=64.26, Genes [18% · 2% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[60], Fitness=64.27, Genes [17% · 0% · 28% · 2%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0024
+  }
+  Genome[61], Fitness=64.27, Genes [16% · 1% · 29% · 1%]
+  Genome[62], Fitness=64.27, Genes [17% · 0% · 29% · 1%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.004
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[63], Fitness=64.27, Genes [16% · 1% · 31% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1368 -> 0.14
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[64], Fitness=64.28, Genes [19% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=64.29, Genes [18% · 0% · 27% · 3%]
+  Genome[66], Fitness=64.31, Genes [23% · 0% · 27% · 0%]
+  Genome[67], Fitness=64.33, Genes [16% · 1% · 32% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1158 -> 0.11
+    Record: Point Mutation at index 2: 0.2842 -> 0.2471
+  }
+  Genome[68], Fitness=64.34, Genes [21% · 0% · 28% · 1%]
+  Genome[69], Fitness=64.35, Genes [18% · 0% · 31% · 1%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[70], Fitness=64.40, Genes [26% · 2% · 26% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1579 -> 0.0355
+  }
+  Genome[71], Fitness=64.42, Genes [22% · 2% · 29% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0235
+  }
+  Genome[72], Fitness=64.45, Genes [23% · 2% · 29% · 0%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[73], Fitness=64.48, Genes [25% · 3% · 28% · 0%]
+  Genome[74], Fitness=64.54, Genes [38% · 5% · 15% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> -0.1926
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 11
+{
+  Bio-Diversity: 0.113
+  Genome[0], Fitness=63.76, Genes [0% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[1], Fitness=63.77, Genes [0% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[2], Fitness=63.77, Genes [0% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[3], Fitness=63.78, Genes [1% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[4], Fitness=63.79, Genes [0% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[5], Fitness=63.79, Genes [0% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[6], Fitness=63.79, Genes [0% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[7], Fitness=63.80, Genes [1% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[8], Fitness=63.80, Genes [2% · 0% · 26% · 0%]
+  Genome[9], Fitness=63.84, Genes [4% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[10], Fitness=63.84, Genes [3% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[11], Fitness=63.87, Genes [5% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[12], Fitness=63.89, Genes [6% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[13], Fitness=63.90, Genes [3% · 0% · 29% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.002
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[14], Fitness=63.90, Genes [3% · 0% · 28% · 1%]
+  Genome[15], Fitness=63.91, Genes [6% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1263 -> 0.1289
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[16], Fitness=63.92, Genes [8% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[17], Fitness=63.94, Genes [8% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> 0.0131
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[18], Fitness=63.95, Genes [5% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[19], Fitness=63.96, Genes [8% · 1% · 26% · 0%]
+  Genome[20], Fitness=63.99, Genes [11% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1474 -> 0.148
+  }
+  Genome[21], Fitness=63.99, Genes [8% · 0% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[22], Fitness=63.99, Genes [12% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[23], Fitness=64.01, Genes [11% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[24], Fitness=64.01, Genes [13% · 0% · 18% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[25], Fitness=64.01, Genes [13% · 0% · 25% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2737 -> 0.2701
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[26], Fitness=64.02, Genes [11% · 0% · 26% · 1%]
+  Genome[27], Fitness=64.02, Genes [12% · 0% · 25% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0012
+  }
+  Genome[28], Fitness=64.03, Genes [12% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[29], Fitness=64.04, Genes [12% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=64.05, Genes [9% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[31], Fitness=64.06, Genes [12% · 1% · 26% · 1%]
+  Genome[32], Fitness=64.06, Genes [5% · 9% · 27% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0026
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[33], Fitness=64.06, Genes [9% · 4% · 27% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2737 -> 0.2773
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[34], Fitness=64.07, Genes [14% · 0% · 25% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[35], Fitness=64.07, Genes [8% · 7% · 26% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0006
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[36], Fitness=64.07, Genes [11% · 0% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[37], Fitness=64.08, Genes [13% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[38], Fitness=64.09, Genes [12% · 1% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[39], Fitness=64.09, Genes [17% · 0% · 24% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[40], Fitness=64.10, Genes [16% · 1% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[41], Fitness=64.10, Genes [14% · 1% · 27% · 0%]
+  Genome[42], Fitness=64.11, Genes [16% · 0% · 25% · 1%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0043
+  }
+  Genome[43], Fitness=64.12, Genes [17% · 1% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[44], Fitness=64.13, Genes [13% · 0% · 27% · 2%]
+  Genome[45], Fitness=64.13, Genes [15% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[46], Fitness=64.15, Genes [13% · 1% · 27% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[47], Fitness=64.15, Genes [15% · 0% · 26% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[48], Fitness=64.15, Genes [8% · 8% · 28% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0175
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=64.15, Genes [19% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[50], Fitness=64.16, Genes [14% · 2% · 28% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2421 -> 0.1867
+  }
+  Genome[51], Fitness=64.16, Genes [18% · 0% · 25% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[52], Fitness=64.17, Genes [13% · 0% · 31% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=64.17, Genes [16% · 0% · 26% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[54], Fitness=64.18, Genes [15% · 0% · 27% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[55], Fitness=64.18, Genes [13% · 6% · 26% · 1%]
+  Genome[56], Fitness=64.18, Genes [17% · 1% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[57], Fitness=64.19, Genes [14% · 0% · 28% · 2%]
+  {
+    Record: Point Mutation at index 0: 0.0947 -> 0.0934
+  }
+  Genome[58], Fitness=64.19, Genes [14% · 0% · 29% · 1%]
+  {
+    Record: Point Mutation at index 2: 0.2632 -> 0.2595
+  }
+  Genome[59], Fitness=64.19, Genes [14% · 2% · 28% · 1%]
+  Genome[60], Fitness=64.20, Genes [8% · 8% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[61], Fitness=64.20, Genes [15% · 1% · 29% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> -0.0896
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[62], Fitness=64.20, Genes [13% · 0% · 29% · 2%]
+  Genome[63], Fitness=64.20, Genes [16% · 0% · 27% · 2%]
+  Genome[64], Fitness=64.22, Genes [15% · 2% · 29% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2737 -> 0.274
+  }
+  Genome[65], Fitness=64.22, Genes [18% · 2% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> 0.0507
+  }
+  Genome[66], Fitness=64.23, Genes [15% · 6% · 27% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2632 -> 0.2632
+  }
+  Genome[67], Fitness=64.23, Genes [17% · 0% · 27% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[68], Fitness=64.23, Genes [20% · 0% · 27% · 0%]
+  {
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+  Genome[69], Fitness=64.25, Genes [19% · 2% · 27% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.0 -> 0.0025
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[70], Fitness=64.26, Genes [15% · 2% · 29% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.1263 -> 0.123
+    Record: Point Mutation at index 0: 0.1158 -> 0.0094
+  }
+  Genome[71], Fitness=64.28, Genes [18% · 3% · 28% · 0%]
+  {
+    Record: Genome carried over from previous generation.
+  }
+  Genome[72], Fitness=64.31, Genes [17% · 0% · 28% · 3%]
+  {
+    Record: Point Mutation at index 0: 0.0421 -> 0.0399
+    Record: Point Mutation at index 0: 0.0316 -> -0.0014
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[73], Fitness=64.31, Genes [17% · 0% · 29% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[74], Fitness=64.32, Genes [16% · 1% · 31% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.1684 -> -0.1926
+    Record: Genome carried over from previous generation.
+    Record: Genome carried over from previous generation.
+  }
+}
+
+Generation 12
+{
+  Bio-Diversity: 0.166
+  Genome[0], Fitness=64.05, Genes [12% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[1], Fitness=64.05, Genes [12% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[2], Fitness=64.09, Genes [12% · 1% · 26% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[3], Fitness=NaN, Genes [2% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[4], Fitness=NaN, Genes [17% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[5], Fitness=NaN, Genes [8% · 4% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[6], Fitness=NaN, Genes [2% · 0% · 28% · 1%]
+  Genome[7], Fitness=NaN, Genes [12% · 0% · 29% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[8], Fitness=NaN, Genes [12% · 1% · 27% · 2%]
+  {
+    Record: Point Mutation at index 0: 0.0 -> -0.0048
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[9], Fitness=NaN, Genes [0% · 0% · 27% · 1%]
+  Genome[10], Fitness=NaN, Genes [4% · 0% · 27% · 0%]
+  Genome[11], Fitness=NaN, Genes [3% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[12], Fitness=NaN, Genes [3% · 4% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[13], Fitness=NaN, Genes [7% · 0% · 26% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> -0.0044
+  }
+  Genome[14], Fitness=NaN, Genes [13% · 1% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[15], Fitness=NaN, Genes [0% · 0% · 25% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.0632 -> 0.0666
+    Record: Point Mutation at index 1: 0.0737 -> 0.1806
+  }
+  Genome[16], Fitness=NaN, Genes [14% · 0% · 24% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[17], Fitness=NaN, Genes [11% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[18], Fitness=NaN, Genes [3% · 0% · 28% · 2%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0044
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[19], Fitness=NaN, Genes [5% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[20], Fitness=NaN, Genes [2% · 1% · 28% · 0%]
+  Genome[21], Fitness=NaN, Genes [11% · 5% · 26% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0015
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[22], Fitness=NaN, Genes [2% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[23], Fitness=NaN, Genes [3% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[24], Fitness=NaN, Genes [0% · 2% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[25], Fitness=NaN, Genes [1% · 0% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[26], Fitness=NaN, Genes [2% · 1% · 25% · 0%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0517
+  }
+  Genome[27], Fitness=NaN, Genes [16% · 1% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[28], Fitness=NaN, Genes [9% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[29], Fitness=NaN, Genes [3% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[30], Fitness=NaN, Genes [6% · 18% · 26% · 0%]
+  {
+    Record: Point Mutation at index 2: 0.2632 -> 0.2566
+  }
+  Genome[31], Fitness=NaN, Genes [4% · 1% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[32], Fitness=NaN, Genes [0% · 1% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[33], Fitness=NaN, Genes [8% · 0% · 28% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> 0.0016
+    Record: Point Mutation at index 1: 0.0 -> 0.0525
+  }
+  Genome[34], Fitness=NaN, Genes [9% · 0% · 27% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0024
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[35], Fitness=NaN, Genes [4% · 0% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[36], Fitness=NaN, Genes [12% · 1% · 25% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[37], Fitness=NaN, Genes [3% · 1% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[38], Fitness=NaN, Genes [9% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[39], Fitness=NaN, Genes [15% · 1% · 29% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.0842 -> 0.0829
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[40], Fitness=NaN, Genes [12% · 1% · 29% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0284
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[41], Fitness=NaN, Genes [12% · 2% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[42], Fitness=NaN, Genes [13% · 1% · 26% · 0%]
+  Genome[43], Fitness=NaN, Genes [13% · 1% · 27% · 1%]
+  {
+    Record: Point Mutation at index 0: 0.0 -> 0.0031
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[44], Fitness=NaN, Genes [11% · 1% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[45], Fitness=NaN, Genes [14% · 1% · 26% · 1%]
+  Genome[46], Fitness=NaN, Genes [16% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[47], Fitness=NaN, Genes [15% · 2% · 28% · 2%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[48], Fitness=NaN, Genes [3% · 0% · 27% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[49], Fitness=NaN, Genes [1% · 0% · 27% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0051
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[50], Fitness=NaN, Genes [11% · 1% · 26% · 0%]
+  {
+    Record: Point Mutation at index 0: 0.1579 -> 0.4065
+  }
+  Genome[51], Fitness=NaN, Genes [9% · 0% · 26% · 1%]
+  {
+    Record: Point Mutation at index 2: 0.2947 -> 0.2935
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[52], Fitness=NaN, Genes [8% · 1% · 26% · 1%]
+  {
+    Record: Point Mutation at index 1: 0.0 -> -0.0012
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[53], Fitness=NaN, Genes [8% · 5% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[54], Fitness=NaN, Genes [5% · 0% · 26% · 1%]
+  Genome[55], Fitness=NaN, Genes [1% · 1% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[56], Fitness=NaN, Genes [17% · 0% · 31% · 2%]
+  {
+    Record: Point Mutation at index 2: 0.2842 -> 0.2858
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[57], Fitness=NaN, Genes [5% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[58], Fitness=NaN, Genes [1% · 0% · 25% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[59], Fitness=NaN, Genes [9% · 1% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[60], Fitness=NaN, Genes [1% · 2% · 26% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> 0.0104
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[61], Fitness=NaN, Genes [4% · 0% · 26% · 1%]
+  Genome[62], Fitness=NaN, Genes [0% · 0% · 26% · 2%]
+  {
+    Record: Point Mutation at index 0: 0.1368 -> 0.137
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[63], Fitness=NaN, Genes [12% · 6% · 26% · 1%]
+  {
+    Record: Point Mutation at index 3: 0.0 -> 0.0053
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[64], Fitness=NaN, Genes [7% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[65], Fitness=NaN, Genes [8% · 2% · 26% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[66], Fitness=NaN, Genes [15% · 2% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[67], Fitness=NaN, Genes [40% · 0% · 26% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[68], Fitness=NaN, Genes [17% · 1% · 28% · 1%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[69], Fitness=NaN, Genes [11% · 1% · 28% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[70], Fitness=NaN, Genes [2% · 0% · 25% · 0%]
+  Genome[71], Fitness=NaN, Genes [13% · 1% · 25% · 0%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> 0.014
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[72], Fitness=NaN, Genes [11% · 0% · 25% · 0%]
+  Genome[73], Fitness=NaN, Genes [0% · 1% · 25% · 1%]
+  {
+    Record: Point Mutation at index 3: 0.0105 -> 0.0093
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+    Record: Genome was mutated to avoid collision
+  }
+  Genome[74], Fitness=NaN, Genes [7% · 0% · 27% · 0%]
+  {
+    Record: Genome was mutated to avoid collision
+  }
+}
+

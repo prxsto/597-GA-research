@@ -1,6 +1,6 @@
 site 1 : 961 20th ave
-site 2 : 
-site 3 : 
+site 2 : 328 17th ave
+site 3 : 3413 e pine st
 
 all run @:
 max stag: 50

@@ -42,11 +42,11 @@ Accessory dwelling units (ADUs) are surging in popularity as cities push for the
 \section{Introduction}
 The United States is amidst an unprecedented housing crisis, stemming from parallel crises: from neoliberal austerity spending cuts towards social benefits to the near-virtual lack of social housing and rent control programs in the United States to the ever-increasing privatization of essentially every aspect of American life\cite{10.2307/26297969}. The result is a rising population of unhoused peoples and the inability for many to become a homeowner or to even afford minimum monthly rent in many cities. Solutions to this dilemma are neither straightforward nor definite. However, designers and architects can only address the symptom-level problems, while advocating towards change directed at the root cause. 
 
-Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Historically, homeowner’s associations and other local organizations have  been resistant to any proposed density increases through zoning or other means\cite{10.2307/24392672}. However, Seattle and the other previously mentioned cities in the Pacific Northwest have succeeded in allowing for the construction of ADUs in recent decades, with these groups beginning to see ADUs as a positive. ADUs offer many positives beyond an increased housing supply such as a path for homeowners to generate income and accommodating households with multigenerational or caretaking needs.
+Seattle, Washington; Portland, Oregon; and Vancouver, British Columbia are exploring the use of accessory dwelling units (ADUs) as one method to combat surging housing prices. Use of ADUs is an effective means of increasing housing density without replacing single family (SF) housing zones with new multi family residential construction. Additionally, ADUs are often designed to be rented, generating supplementary income for the homeowner. Historically, homeowner’s associations and other local organizations have  been resistant to any proposed density increases through zoning or other means\cite{10.2307/24392672}. However, Seattle and the other previously mentioned cities in the Pacific Northwest have succeeded in allowing for the construction of ADUs in recent decades, with these groups beginning to see ADUs as a positive. ADUs offer many positives beyond an increased housing supply such as a path for homeowners to generate income and accommodating households with multigenerational or caretaking needs.
 
 Beginning in 2014, the City of Seattle has moved to increase production of ADUs through various resolutions and legislation, in turn removing barriers to entry and highlighting strategies for encouragement. In late 2019, a call for detached ADU (or DADU) designs was issued to designers. As a result, ten DADU designs were pre-approved by the City of Seattle and are available online to entice homeowners\cite{ADUniversePreapprovedADU}. The pre-approved designs are free, but still require standard permitting fees to be paid for approval and come with one significant downside of many other pre-designed structures: a lack of contextual design and individualization. This one-size-fits-all approach can have drastic effects upon energy consumption, reducing the appeal of such an investment. Further, these designs do not offer the scalability or energy efficiency that an ADU designed specifically per site offers.
 
- Coincidentally, a November 2019 city survey shows that there are calls for an increased focus on sustainability and cost in the construction of ADUs\cite{seattlePreapprovedPlansAccessory2019}. This survey was positioned before the official call for submissions was broadcast. 'Low cost' was the top ranked criteria with 48\% of responses listing 'very important', followed by 'green building' being ranked similarly at 46\%. Other suggestions sourced from surveyed respondents included low environmental costs, site specific considerations, and predictability. The ability to show users the estimated annual energy consumption of a new construction DADU would have a major impact on driving construction demand based on survey responses noted. Using an optimization method such as a genetic algorithm can allow architects to arrive at the most effective design solution on a site specific basis while predictably minimizing both environmental and financial costs. 
+ Coincidentally, a November 2019 city survey shows that there are calls for an increased focus on sustainability and cost in the construction of ADUs\cite{seattlePreapprovedPlansAccessory2019}. This survey was positioned before the official call for submissions was broadcast. 'Low cost' was the top ranked criteria with 48\% of responses listing 'very important', followed by 'green building' being ranked similarly at 46\%. Other suggestions sourced from surveyed respondents included low environmental costs, site specific considerations, and predictability. The ability to show users the estimated annual energy consumption of a new construction DADU would have a major impact on driving construction demand based on survey responses noted. Using an optimization method such as a genetic algorithm (GA) can allow architects to arrive at the most effective design solution on a site specific basis while predictably minimizing both environmental and financial costs. 
  
 \section{Methodology} 
 This research explores the use of a genetic solver to find the optimal design solution of window-to-wall ratios (WWR) for a simple DADU form resulting in the lowest energy use intensity (EUI) value. Three sites in comparable neighborhoods in the city of Seattle were selected based on a combination of proximity and slight density variance. The tool adheres to zoning regulations to find estimated buildable area for a DADU on each site, creates a simple box-like form representing the DADU and then varies the WWR value for each of the four walls. A genetic solver plugin is then allowed to vary these ratios to find an optimal solution using a process largely mimicking natural genetic processes. Finally, an energy model is created from each individual iteration to find an estimate for overall EUI. From here, the process loops until an optimal solution is found.
@@ -249,10 +249,12 @@ Honeybee, part of the open-source Ladybug Tools plugin suite for Grasshopper and
  
 Similarly, trees are represented as simple cylindrical solids, in order to keep energy simulation speed quick and to reduce the time necessary to reach an optimal solution. In initial tests, trees were represented as spherical meshes created using Grasshopper. These more-detailed trees varied in opaque triangulated mesh coverage to simulate foliage cover and to more accurately cast shadows. It is important to note that with access to greater computing power it could become reasonable to represent and simulate trees in the original format. Together with other context, including the associated residence and nearby residences capable of projecting shadows onto the DADU, the tree models were assigned as shades in the Honeybee model. 
 
-The final input required for the Honeybee/EnergyPlus model is a weather file, in .EPW (EnergyPlus Weather File) format. These files contain yearly climate data for a geographic location; in this case data was collected at the King County International Airport - Boeing Field in Seattle, Washington. The American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE) defines climate zones for use with EnergyPlus and other tools/calculations. Seattle falls within the ASHRAE 169-2006 standard 4C climate, defined as \textit{Mixed - Marine}. This climate type is utilized within the Grasshopper script to define the wood frame construction type for the Seattle climate. 
+The final input required for the Honeybee/EnergyPlus model is a weather file, in .EPW (EnergyPlus Weather File) format. These files contain yearly climate data for a geographic location; in this case data was collected at the King County International Airport - Boeing Field in Seattle, Washington. The American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE) defines climate zones for use with EnergyPlus and other tools/calculations. Seattle falls within the ASHRAE 169-2006 standard 4C climate, defined as \textit{Mixed - Marine}. This climate type is utilized within the Grasshopper script to define the wood frame construction type for the Seattle climate. EPW files are obtainable freely at \textit{EnergyPlus.net}, the United States Department of Energy's official EnergyPlus website.
+
+Output data consists of the final, optimized site EUI value for each DADU as a sum value of cooling, heating, lighting, equipment, and hot water EUIs. Lighting, equipment, and hot water are all held constant at 1.923 kBTU/ft$^2$, 9.645 kBTU/ft$^2$, and 14.295 kBTU/ft$^2$, respectively. 
 
 \subsection{Genetic algorithm}
-Genetic algorithms (GA) operate using logic that mimics biological evolution to optimize a value. Fitness functions are the means by which to objectively evaluate the strength of individual designs. In this case, the fitness value minimized is the resultant EUI value corresponding to each set of window-to-wall ratios. Work was initially done using a purely Python-based GA script, but later pivoted to utilizing Galapagos, a genetic solver plugin that ships with Grasshopper. Galapagos offers a simple user interface and more direct integration within Grasshopper at the cost of advanced options. These options however were not necessary for the level of optimization required within this project. Galapagos accepts Grasshopper slider components as input, with the domain set independently for each slider. As each DADU is reduced to a shoebox model, each facade is governed by an individual WWR slider, all with domain: $\lbrace x \vert 0 \leq x \leq 0.95 \rbrace$. 
+Genetic algorithms operate using logic that mimics biological evolution to optimize a value. Fitness functions are the means by which to objectively evaluate the strength of individual designs. In this case, the fitness value minimized is the resultant EUI value corresponding to each set of window-to-wall ratios. Work was initially done using a purely Python-based GA script, but later pivoted to utilizing Galapagos, a genetic solver plugin that ships with Grasshopper. Utilizing Grasshopper and Galapagos offers a ‘sandbox’ environment to begin to understand genetic algorithms and to arrive at tangible design solutions faster than using a home-brewed algorithm. Further, Galapagos offers a simple user interface and a more direct integration within Grasshopper at the cost of advanced options. These options however were not necessary for the level of optimization required within this project. Galapagos accepts Grasshopper slider components as input, with the domain set independently for each slider. As each DADU is reduced to a shoebox model, each facade is governed by one individual WWR slider, each with domain $\lbrace x \vert 0 \leq x \leq 0.95 \rbrace$. 
 
 Each Galapagos optimization was run twice for each site as a means to double check that the first result was not simply a local minimum. The evolutionary solver input panel was set as follows: 
 
@@ -266,29 +268,44 @@ Each Galapagos optimization was run twice for each site as a means to double che
 \label{galapagos-settings}
 \end{itemize}
 
-Population set to 75 was found to be an effective balance between speed and reliability in initial tests. Allocating a 4x multiplier to initial population size ensures enough design variation from the start. Each optimization run was stopped at 15 generations, unless stagnation was reached earlier in the process.  
+Population set to 75 was found to be an effective balance between speed and reliability in initial tests. Allocating a 4x multiplier to initial population size ensures enough design variation from the start. Each optimization run was stopped at 15 generations, with each site having been optimized 5 times. The results presented below for sites are averaged between all completed runs. Outlier EUI values were omitted and optimizations re-run. Ocassionally, Galapagos may reach what is termed a \textit{local minimum}, values which define the lowest EUI within the genetic dataset, but not the true minimal EUI attainable within constraints.
 
 \section{Results}
-%TODO introduce sites/addresses, site plans
+\begin{figure}[h!]
+\centering
+\includegraphics{site1.pdf}
+\caption{Site 1: 961 20th Ave, Seattle WA | DADU floor area: 1000 ft$^2$}
+\label{site1-plan}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics{site2.pdf}
+\caption{Site 2: 328 17th Ave, Seattle WA | DADU floor area: 520 ft$^2$}
+\label{site2-plan}
+\end{figure}
+
+Site selection was primarily driven by orientation between DADU location and existing residences, with each site in a differing neighborhood of Seattle. The Central District, Minor, and Madrona neighborhoods all lie east of downtown Seattle, greatly uphill. Neighborhoods differ slightly in density, street width, and demographics but all chosen sites are within identical SF5000 zoning. Site 1 is located at 961 20th Avenue in the Central District and the DADU is bordered directly by existing structures to the north and east. This DADU is the largest explored, reaching the maximum allowable floor area by single family code\cite{ADUniverseADURules}. Site 2 resides at 328 17th Avenue in Minor and its DADU structure is adjacent to the east of the existing home. This site is unique out of the three, as there is an additional existing structure located on the lot, being a small storage shed to the south-east. Finally, site 3, located at 3413 East Pine Street within Madrona consists of the existing residence facing the street to the north, with DADU location to the south. Neighboring residences to the east and southeast account for the majority of shading effect.
+
+\begin{figure}[h!]
+\centering
+\includegraphics{site3.pdf}
+\caption{Site 3: 3413 E Pine St, Seattle WA | DADU floor area: 680 ft$^2$}
+\label{site3-plan}
+\end{figure}
+
+
 %TODO Add data visualizations of results
 %TODO additional simplified plans or renderings of DADUs and sites
 %TODO eui output breakdown and total, point out how only cooling and heating truly vary
 %TODO Limitations of Galapagos/Grasshopper workflow
-Utilizing Grasshopper and Galapagos offers a ‘sandbox’ environment to begin to understand genetic algorithms and to arrive at tangible design solutions faster than using a home-brewed algorithm. Galapagos offers many fewer input parameters and a much narrower scope in which to define the fitness function. In its out-of-the-box form, Galapagos only accepts number sliders as input and can only optimize integers and floats
+
 \section{Conclusion}
 %TODO Add main conclusion section, user ability to override window sizing and placement- feedback loop?
 Looking forward, the intention is to replace the computationally-expensive EnergyPlus simulation with a machine learning model that can predict EUI performance. This technique is essentially  surrogate modeling; that is, a means to approximate/predict the energy performance without doing the thermodynamics calculations required to return a true value. Machine learning algorithms require vast troves of data to learn from in order to increase accuracy past an acceptable threshold. This tool generates the optimized energy simulation data, which in turn becomes the training dataset. Assuming the resultant tool could be hosted on the web, this theoretically increases the rate of adoption by lowering the requirement to utilize the tool. 
 
-%Figures are called in as follows:
-%\begin{figure}
-%\centering
-%\includegraphics{<figure name>}
-%\caption{<Figure caption>}
-%\label{label}
-%\end{figure}
-
 \begin{acks}
-The author would like to thank Professor Tomas Mendez Echenagucia for his genetic algorithm expertise and input; Teresa Moroseos for her assistance with Honeybee debugging; Professor Alex Anderson and fellow students in the Spring 2021 Arch597 - Research Practicum course at University of Washington for feedback and motivation; last but not least, Mia Lorentsen for her unending support but not for her assistance in procrastinating.
+The author would like to thank Professor Tomas Mendez Echenagucia for his genetic algorithm expertise and input; Teresa Moroseos for her assistance with Honeybee debugging; Professor Alex Anderson and fellow students in the Spring 2021 Arch597 - Research Practicum course at University of Washington for feedback and motivation; Mia Lorentsen for her unending support.
 \end{acks}
 
 \begin{funding}
